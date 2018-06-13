@@ -1,0 +1,834 @@
+version:::2015.08.03.1
+advisory:::2015:2403.1:::1436804100:::M:::SUSE-SU-2015:1177-2: Security update for MySQL:::
+package:::2015:2403.1:::libmysqlclient_r15:::5.0.96-0.8.8.2
+package:::2015:2403.1:::mysql:::5.0.96-0.8.8.2
+package:::2015:2403.1:::mysql-Max:::5.0.96-0.8.8.2
+package:::2015:2403.1:::mysql-client:::5.0.96-0.8.8.2
+package:::2015:2403.1:::mysql-tools:::5.0.96-0.8.8.2
+package:::2015:2403.1:::libmysqlclient15:::5.0.96-0.8.8.2
+advisory:::2015:2218.1:::1435590000:::M:::SUSE-SU-2015:1156-1: Security update for Xen:::
+package:::2015:2218.1:::xen-doc-html:::4.0.3_21548_18-0.25.1
+package:::2015:2218.1:::xen-doc-pdf:::4.0.3_21548_18-0.25.1
+package:::2015:2218.1:::xen-kmp-default:::4.0.3_21548_18_2.6.32.59_0.19-0.25.1
+package:::2015:2218.1:::xen-kmp-trace:::4.0.3_21548_18_2.6.32.59_0.19-0.25.1
+package:::2015:2218.1:::xen-libs:::4.0.3_21548_18-0.25.1
+package:::2015:2218.1:::xen-tools:::4.0.3_21548_18-0.25.1
+package:::2015:2218.1:::xen-tools-domU:::4.0.3_21548_18-0.25.1
+package:::2015:2218.1:::xen-kmp-pae:::4.0.3_21548_18_2.6.32.59_0.19-0.25.1
+package:::2015:2218.1:::xen:::4.0.3_21548_18-0.25.1
+advisory:::2015:2125.1:::1434640920:::M:::SUSE-SU-2015:1086-1: Security update for IBM Java:::
+package:::2015:2125.1:::java-1_6_0-ibm-fonts:::1.6.0_sr16.4-0.3.1
+package:::2015:2125.1:::java-1_6_0-ibm-jdbc:::1.6.0_sr16.4-0.3.1
+package:::2015:2125.1:::java-1_6_0-ibm-plugin:::1.6.0_sr16.4-0.3.1
+package:::2015:2125.1:::java-1_6_0-ibm-alsa:::1.6.0_sr16.4-0.3.1
+package:::2015:2125.1:::java-1_6_0-ibm:::1.6.0_sr16.4-0.3.1
+advisory:::2015:0705.2:::1433343780:::H:::SUSE-SU-2015:0392-1: Security update for java-1_6_0-ibm:::
+package:::2015:0705.2:::java-1_6_0-ibm-fonts:::1.6.0_sr16.3-0.4.5
+package:::2015:0705.2:::java-1_6_0-ibm-jdbc:::1.6.0_sr16.3-0.4.5
+package:::2015:0705.2:::java-1_6_0-ibm-plugin:::1.6.0_sr16.3-0.4.5
+package:::2015:0705.2:::java-1_6_0-ibm-alsa:::1.6.0_sr16.3-0.4.5
+package:::2015:0705.2:::java-1_6_0-ibm:::1.6.0_sr16.3-0.4.5
+advisory:::2015:1875.1:::1432735920:::M:::SUSE-SU-2015:0940-1: Security update for Xen:::
+package:::2015:1875.1:::xen:::4.0.3_21548_18-0.21.1
+package:::2015:1875.1:::xen-doc-html:::4.0.3_21548_18-0.21.1
+package:::2015:1875.1:::xen-doc-pdf:::4.0.3_21548_18-0.21.1
+package:::2015:1875.1:::xen-kmp-default:::4.0.3_21548_18_2.6.32.59_0.19-0.21.1
+package:::2015:1875.1:::xen-kmp-pae:::4.0.3_21548_18_2.6.32.59_0.19-0.21.1
+package:::2015:1875.1:::xen-kmp-trace:::4.0.3_21548_18_2.6.32.59_0.19-0.21.1
+package:::2015:1875.1:::xen-libs:::4.0.3_21548_18-0.21.1
+package:::2015:1875.1:::xen-tools:::4.0.3_21548_18-0.21.1
+package:::2015:1875.1:::xen-tools-domU:::4.0.3_21548_18-0.21.1
+advisory:::2015:1851.1:::1432311060:::M:::SUSE-SU-2015:0929-1: Security update for KVM:::
+package:::2015:1851.1:::kvm:::0.12.5-1.26.1
+advisory:::2015:1110.1:::1427997180:::M:::SUSE-SU-2015:0652-1: Security update for Linux kernel:::
+package:::2015:1110.1:::kernel-default:::2.6.32.59-0.19.1
+package:::2015:1110.1:::kernel-default-base:::2.6.32.59-0.19.1
+package:::2015:1110.1:::kernel-default-devel:::2.6.32.59-0.19.1
+package:::2015:1110.1:::kernel-ec2:::2.6.32.59-0.19.1
+package:::2015:1110.1:::kernel-ec2-base:::2.6.32.59-0.19.1
+package:::2015:1110.1:::kernel-ec2-devel:::2.6.32.59-0.19.1
+package:::2015:1110.1:::kernel-pae:::2.6.32.59-0.19.1
+package:::2015:1110.1:::kernel-pae-base:::2.6.32.59-0.19.1
+package:::2015:1110.1:::kernel-pae-devel:::2.6.32.59-0.19.1
+package:::2015:1110.1:::kernel-source:::2.6.32.59-0.19.1
+package:::2015:1110.1:::kernel-syms:::2.6.32.59-0.19.1
+package:::2015:1110.1:::kernel-trace:::2.6.32.59-0.19.1
+package:::2015:1110.1:::kernel-trace-base:::2.6.32.59-0.19.1
+package:::2015:1110.1:::kernel-trace-devel:::2.6.32.59-0.19.1
+package:::2015:1110.1:::kernel-xen:::2.6.32.59-0.19.1
+package:::2015:1110.1:::kernel-xen-base:::2.6.32.59-0.19.1
+package:::2015:1110.1:::kernel-xen-devel:::2.6.32.59-0.19.1
+package:::2015:1110.1:::xen-kmp-default:::4.0.3_21548_18_2.6.32.59_0.19-0.9.17
+package:::2015:1110.1:::xen-kmp-pae:::4.0.3_21548_18_2.6.32.59_0.19-0.9.17
+package:::2015:1110.1:::xen-kmp-trace:::4.0.3_21548_18_2.6.32.59_0.19-0.9.17
+advisory:::2015:1036.1:::1427726520:::M:::SUSE-SU-2015:0593-2: Security update for MozillaFirefox:::
+package:::2015:1036.1:::MozillaFirefox:::31.5.3esr-0.3.1
+package:::2015:1036.1:::MozillaFirefox-translations:::31.5.3esr-0.3.1
+advisory:::2015:0813.1:::1426168920:::L:::SUSE-SU-2015:0480-1: Security update for bind:::
+package:::2015:0813.1:::bind:::9.6ESVR11W1-0.2.1
+package:::2015:0813.1:::bind-chrootenv:::9.6ESVR11W1-0.2.1
+package:::2015:0813.1:::bind-doc:::9.6ESVR11W1-0.2.1
+package:::2015:0813.1:::bind-libs:::9.6ESVR11W1-0.2.1
+package:::2015:0813.1:::bind-utils:::9.6ESVR11W1-0.2.1
+advisory:::2015:0744.1:::1425910260:::M:::SUSE-SU-2015:0447-1: Security update for Mozilla Firefox:::
+package:::2015:0744.1:::MozillaFirefox:::31.5.0esr-0.4.2.1
+package:::2015:0744.1:::MozillaFirefox-translations:::31.5.0esr-0.4.2.1
+advisory:::2015:0705.1:::1425309780:::N:::SUSE-SU-2015:0392-1: Security update for java-1_6_0-ibm:::
+package:::2015:0705.1:::java-1_6_0-ibm:::1.6.0_sr16.3-0.4.5
+package:::2015:0705.1:::java-1_6_0-ibm-alsa:::1.6.0_sr16.3-0.4.5
+package:::2015:0705.1:::java-1_6_0-ibm-fonts:::1.6.0_sr16.3-0.4.5
+package:::2015:0705.1:::java-1_6_0-ibm-jdbc:::1.6.0_sr16.3-0.4.5
+package:::2015:0705.1:::java-1_6_0-ibm-plugin:::1.6.0_sr16.3-0.4.5
+advisory:::2015:0574.1:::1424200140:::M:::SUSE-SU-2015:0298-1: Security update for clamav:::
+package:::2015:0574.1:::clamav:::0.98.6-0.6.1
+advisory:::2015:0571.1:::1424185260:::L:::SUSE-SU-2015:0259-3: Security update for ntp:::
+package:::2015:0571.1:::ntp:::4.2.4p8-1.29.32.1
+package:::2015:0571.1:::ntp-doc:::4.2.4p8-1.29.32.1
+advisory:::2015:0394.1:::1422630840:::M:::SUSE-SU-2015:0173-1: Security update for Mozilla Firefox:::
+package:::2015:0394.1:::libfreebl3:::3.17.3-0.3.1
+package:::2015:0394.1:::MozillaFirefox:::31.4.0esr-0.3.1
+package:::2015:0394.1:::MozillaFirefox-translations:::31.4.0esr-0.3.1
+package:::2015:0394.1:::mozilla-nss:::3.17.3-0.3.1
+package:::2015:0394.1:::mozilla-nss-tools:::3.17.3-0.3.1
+advisory:::2015:0333.1:::1422457860:::H:::SUSE-SU-2015:0158-1: Security update for glibc:::
+package:::2015:0333.1:::glibc:::2.11.1-0.60.1
+package:::2015:0333.1:::glibc-devel:::2.11.1-0.60.1
+package:::2015:0333.1:::glibc-html:::2.11.1-0.60.1
+package:::2015:0333.1:::glibc-i18ndata:::2.11.1-0.60.1
+package:::2015:0333.1:::glibc-info:::2.11.1-0.60.1
+package:::2015:0333.1:::glibc-locale:::2.11.1-0.60.1
+package:::2015:0333.1:::glibc-profile:::2.11.1-0.60.1
+package:::2015:0333.1:::nscd:::2.11.1-0.60.1
+advisory:::2014:3740.1:::1419865860:::M:::SUSE-SU-2014:1686-3: Security update for ntp:::
+package:::2014:3740.1:::ntp:::4.2.4p8-1.28.1
+package:::2014:3740.1:::ntp-doc:::4.2.4p8-1.28.1
+advisory:::2014:3555.1:::1418396640:::M:::SUSE-SU-2014:1624-1: Security update for Mozilla Firefox:::
+package:::2014:3555.1:::MozillaFirefox:::31.3.0esr-0.3.1
+package:::2014:3555.1:::MozillaFirefox-translations:::31.3.0esr-0.3.1
+advisory:::2014:3486.1:::1418051700:::M:::SUSE-SU-2014:1571-1: Security update for clamav:::
+package:::2014:3486.1:::clamav:::0.98.5-0.5.1
+advisory:::2014:3323.1:::1416496140:::M:::SUSE-SU-2014:1458-1: Security update for MozillaFirefox:::
+package:::2014:3323.1:::libfreebl3:::3.17.2-0.3.1
+package:::2014:3323.1:::MozillaFirefox:::31.2.0esr-0.11.11.1
+package:::2014:3323.1:::MozillaFirefox-branding-SLED:::31.0-0.5.5.1
+package:::2014:3323.1:::MozillaFirefox-translations:::31.2.0esr-0.11.11.1
+package:::2014:3323.1:::mozilla-nspr:::4.10.7-0.3.3
+package:::2014:3323.1:::mozilla-nss:::3.17.2-0.3.1
+package:::2014:3323.1:::mozilla-nss-tools:::3.17.2-0.3.1
+advisory:::2014:3266.1:::1415891520:::L:::SUSE-SU-2014:1366-2: Security update for wget:::
+package:::2014:3266.1:::wget:::1.11.4-1.19.1
+advisory:::2014:3220.1:::1415718120:::M:::SUSE-SU-2014:1386-1: Security update for OpenSSL:::
+package:::2014:3220.1:::libopenssl0_9_8:::0.9.8j-0.66.1
+package:::2014:3220.1:::libopenssl0_9_8-hmac:::0.9.8j-0.66.1
+package:::2014:3220.1:::libopenssl-devel:::0.9.8j-0.66.1
+package:::2014:3220.1:::openssl:::0.9.8j-0.66.1
+package:::2014:3220.1:::openssl-doc:::0.9.8j-0.66.1
+advisory:::2014:2699.1:::1412085780:::L:::SUSE-SU-2014:1220-3: Security update for mozilla-nss:::
+package:::2014:2699.1:::libfreebl3:::3.16.5-0.4.2.1
+package:::2014:2699.1:::mozilla-nss:::3.16.5-0.4.2.1
+package:::2014:2699.1:::mozilla-nss-tools:::3.16.5-0.4.2.1
+advisory:::2014:2666.6:::1412262420:::H:::SUSE-SU-2014:1247-1: Security update for bash:::
+package:::2014:2666.6:::bash:::3.2-147.14.22.1
+package:::2014:2666.6:::bash-doc:::3.2-147.14.22.1
+package:::2014:2666.6:::libreadline5:::5.2-147.14.22.1
+package:::2014:2666.6:::readline-doc:::5.2-147.14.22.1
+advisory:::2014:2618.3:::1412008620:::H:::SUSE-SU-2014:1212-1: Security update for bash:::
+package:::2014:2618.3:::bash:::3.2-147.14.20.1
+package:::2014:2618.3:::bash-doc:::3.2-147.14.20.1
+package:::2014:2618.3:::libreadline5:::5.2-147.14.20.1
+package:::2014:2618.3:::readline-doc:::5.2-147.14.20.1
+advisory:::2014:2489.1:::1410964500:::M:::SUSE-SU-2014:1138-1: Security update for the Linux Kernel:::
+package:::2014:2489.1:::kernel-default:::2.6.32.59-0.15.2
+package:::2014:2489.1:::kernel-default-base:::2.6.32.59-0.15.2
+package:::2014:2489.1:::kernel-default-devel:::2.6.32.59-0.15.2
+package:::2014:2489.1:::kernel-ec2:::2.6.32.59-0.15.2
+package:::2014:2489.1:::kernel-ec2-base:::2.6.32.59-0.15.2
+package:::2014:2489.1:::kernel-ec2-devel:::2.6.32.59-0.15.2
+package:::2014:2489.1:::kernel-pae:::2.6.32.59-0.15.2
+package:::2014:2489.1:::kernel-pae-base:::2.6.32.59-0.15.2
+package:::2014:2489.1:::kernel-pae-devel:::2.6.32.59-0.15.2
+package:::2014:2489.1:::kernel-source:::2.6.32.59-0.15.2
+package:::2014:2489.1:::kernel-syms:::2.6.32.59-0.15.2
+package:::2014:2489.1:::kernel-trace:::2.6.32.59-0.15.2
+package:::2014:2489.1:::kernel-trace-base:::2.6.32.59-0.15.2
+package:::2014:2489.1:::kernel-trace-devel:::2.6.32.59-0.15.2
+package:::2014:2489.1:::kernel-xen:::2.6.32.59-0.15.2
+package:::2014:2489.1:::kernel-xen-base:::2.6.32.59-0.15.2
+package:::2014:2489.1:::kernel-xen-devel:::2.6.32.59-0.15.2
+package:::2014:2489.1:::xen-kmp-default:::4.0.3_21548_16_2.6.32.59_0.15-0.5.26
+package:::2014:2489.1:::xen-kmp-pae:::4.0.3_21548_16_2.6.32.59_0.15-0.5.26
+package:::2014:2489.1:::xen-kmp-trace:::4.0.3_21548_16_2.6.32.59_0.15-0.5.26
+advisory:::2014:2447.1:::1410789840:::M:::SUSE-SU-2014:1112-2: Security update for MozillaFirefox:::
+package:::2014:2447.1:::libfreebl3:::3.16.4-0.3.1
+package:::2014:2447.1:::MozillaFirefox:::24.8.0esr-0.3.1
+package:::2014:2447.1:::MozillaFirefox-translations:::24.8.0esr-0.3.1
+package:::2014:2447.1:::mozilla-nspr:::4.10.7-0.3.1
+package:::2014:2447.1:::mozilla-nss:::3.16.4-0.3.1
+package:::2014:2447.1:::mozilla-nss-tools:::3.16.4-0.3.1
+advisory:::2014:2436.1:::1410530640:::M:::SUSE-SU-2014:1122-1: Security update for glibc:::
+package:::2014:2436.1:::glibc:::2.11.1-0.58.1
+package:::2014:2436.1:::glibc-devel:::2.11.1-0.58.1
+package:::2014:2436.1:::glibc-html:::2.11.1-0.58.1
+package:::2014:2436.1:::glibc-i18ndata:::2.11.1-0.58.1
+package:::2014:2436.1:::glibc-info:::2.11.1-0.58.1
+package:::2014:2436.1:::glibc-locale:::2.11.1-0.58.1
+package:::2014:2436.1:::glibc-profile:::2.11.1-0.58.1
+package:::2014:2436.1:::nscd:::2.11.1-0.58.1
+advisory:::2014:2296.1:::1409753100:::H:::SUSE-SU-2014:1081-1: Security update for apache2:::
+package:::2014:2296.1:::apache2:::2.2.12-1.48.1
+package:::2014:2296.1:::apache2-doc:::2.2.12-1.48.1
+package:::2014:2296.1:::apache2-example-pages:::2.2.12-1.48.1
+package:::2014:2296.1:::apache2-prefork:::2.2.12-1.48.1
+package:::2014:2296.1:::apache2-utils:::2.2.12-1.48.1
+package:::2014:2296.1:::apache2-worker:::2.2.12-1.48.1
+advisory:::2014:1992.1:::1407160800:::M:::SUSE-SU-2014:0960-1: Security update for Mozilla Firefox:::
+package:::2014:1992.1:::libfreebl3:::3.16.2-0.3.1
+package:::2014:1992.1:::MozillaFirefox:::24.7.0esr-0.3.1
+package:::2014:1992.1:::MozillaFirefox-translations:::24.7.0esr-0.3.1
+package:::2014:1992.1:::mozilla-nss:::3.16.2-0.3.1
+package:::2014:1992.1:::mozilla-nss-tools:::3.16.2-0.3.1
+advisory:::2014:1984.1:::1406901600:::L:::SUSE-SU-2014:0955-1: Security update for lzo:::
+package:::2014:1984.1:::liblzo2-2:::2.03-12.3.1
+advisory:::2014:1681.1:::1404830520:::M:::SUSE-SU-2014:0873-2: Security update for PHP5:::
+package:::2014:1681.1:::apache2-mod_php5:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-bcmath:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-bz2:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-calendar:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-ctype:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-curl:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-dba:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-dbase:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-dom:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-exif:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-fastcgi:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-ftp:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-gd:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-gettext:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-gmp:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-hash:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-iconv:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-json:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-ldap:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-mbstring:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-mcrypt:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-mysql:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-odbc:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-openssl:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-pcntl:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-pdo:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-pear:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-pgsql:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-pspell:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-shmop:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-snmp:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-soap:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-suhosin:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-sysvmsg:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-sysvsem:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-sysvshm:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-tokenizer:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-wddx:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-xmlreader:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-xmlrpc:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-xmlwriter:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-xsl:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-zip:::5.2.14-0.7.30.54.1
+package:::2014:1681.1:::php5-zlib:::5.2.14-0.7.30.54.1
+advisory:::2014:1555.1:::1403620380:::M:::SUSE-SU-2014:0824-2: Security update for MozillaFirefox:::
+package:::2014:1555.1:::libfreebl3:::3.16.1-0.3.1
+package:::2014:1555.1:::MozillaFirefox:::24.6.0esr-0.3.1
+package:::2014:1555.1:::MozillaFirefox-branding-SLED:::24-0.4.10.24
+package:::2014:1555.1:::MozillaFirefox-translations:::24.6.0esr-0.3.1
+package:::2014:1555.1:::mozilla-nspr:::4.10.6-0.3.1
+package:::2014:1555.1:::mozilla-nss:::3.16.1-0.3.1
+package:::2014:1555.1:::mozilla-nss-tools:::3.16.1-0.3.1
+advisory:::2014:1497.1:::1403187000:::M:::SUSE-SU-2014:0807-1: Security update for Linux Kernel:::
+package:::2014:1497.1:::btrfs-kmp-default:::0_2.6.32.59_0.13-0.3.163
+package:::2014:1497.1:::btrfs-kmp-pae:::0_2.6.32.59_0.13-0.3.163
+package:::2014:1497.1:::btrfs-kmp-xen:::0_2.6.32.59_0.13-0.3.163
+package:::2014:1497.1:::ext4dev-kmp-default:::0_2.6.32.59_0.13-7.9.130
+package:::2014:1497.1:::ext4dev-kmp-pae:::0_2.6.32.59_0.13-7.9.130
+package:::2014:1497.1:::ext4dev-kmp-trace:::0_2.6.32.59_0.13-7.9.130
+package:::2014:1497.1:::ext4dev-kmp-xen:::0_2.6.32.59_0.13-7.9.130
+package:::2014:1497.1:::hyper-v-kmp-default:::0_2.6.32.59_0.13-0.18.39
+package:::2014:1497.1:::hyper-v-kmp-pae:::0_2.6.32.59_0.13-0.18.39
+package:::2014:1497.1:::hyper-v-kmp-trace:::0_2.6.32.59_0.13-0.18.39
+package:::2014:1497.1:::kernel-default:::2.6.32.59-0.13.1
+package:::2014:1497.1:::kernel-default-base:::2.6.32.59-0.13.1
+package:::2014:1497.1:::kernel-default-devel:::2.6.32.59-0.13.1
+package:::2014:1497.1:::kernel-ec2:::2.6.32.59-0.13.1
+package:::2014:1497.1:::kernel-ec2-base:::2.6.32.59-0.13.1
+package:::2014:1497.1:::kernel-ec2-devel:::2.6.32.59-0.13.1
+package:::2014:1497.1:::kernel-pae:::2.6.32.59-0.13.1
+package:::2014:1497.1:::kernel-pae-base:::2.6.32.59-0.13.1
+package:::2014:1497.1:::kernel-pae-devel:::2.6.32.59-0.13.1
+package:::2014:1497.1:::kernel-source:::2.6.32.59-0.13.1
+package:::2014:1497.1:::kernel-syms:::2.6.32.59-0.13.1
+package:::2014:1497.1:::kernel-trace:::2.6.32.59-0.13.1
+package:::2014:1497.1:::kernel-trace-base:::2.6.32.59-0.13.1
+package:::2014:1497.1:::kernel-trace-devel:::2.6.32.59-0.13.1
+package:::2014:1497.1:::kernel-xen:::2.6.32.59-0.13.1
+package:::2014:1497.1:::kernel-xen-base:::2.6.32.59-0.13.1
+package:::2014:1497.1:::kernel-xen-devel:::2.6.32.59-0.13.1
+advisory:::2014:1458.1:::1402670520:::M:::SUSE-SU-2014:0788-1: Security update for GnuTLS:::
+package:::2014:1458.1:::gnutls:::2.4.1-24.39.53.1
+package:::2014:1458.1:::libgnutls26:::2.4.1-24.39.53.1
+package:::2014:1458.1:::libgnutls-extra26:::2.4.1-24.39.53.1
+advisory:::2014:1337.1:::1402063800:::M:::SUSE-SU-2014:0761-1: Security update for OpenSSL:::
+package:::2014:1337.1:::libopenssl0_9_8:::0.9.8j-0.58.1
+package:::2014:1337.1:::libopenssl0_9_8-hmac:::0.9.8j-0.58.1
+package:::2014:1337.1:::openssl:::0.9.8j-0.58.1
+package:::2014:1337.1:::openssl-doc:::0.9.8j-0.58.1
+advisory:::2014:1278.1:::1401805260:::M:::SUSE-SU-2014:0728-3: Security update for IBM Java 6:::
+package:::2014:1278.1:::java-1_6_0-ibm:::1.6.0_sr16.0-0.3.1
+package:::2014:1278.1:::java-1_6_0-ibm-alsa:::1.6.0_sr16.0-0.3.1
+package:::2014:1278.1:::java-1_6_0-ibm-fonts:::1.6.0_sr16.0-0.3.1
+package:::2014:1278.1:::java-1_6_0-ibm-jdbc:::1.6.0_sr16.0-0.3.1
+package:::2014:1278.1:::java-1_6_0-ibm-plugin:::1.6.0_sr16.0-0.3.1
+advisory:::2014:1077.1:::1400248800:::H:::SUSE-SU-2014:0665-1: Security update for Mozilla Firefox:::
+package:::2014:1077.1:::libfreebl3:::3.16-0.3.1
+package:::2014:1077.1:::MozillaFirefox:::24.5.0esr-0.3.1
+package:::2014:1077.1:::MozillaFirefox-branding-SLED:::24-0.4.10.14
+package:::2014:1077.1:::MozillaFirefox-translations:::24.5.0esr-0.3.1
+package:::2014:1077.1:::mozilla-nspr:::4.10.4-0.3.1
+package:::2014:1077.1:::mozilla-nss:::3.16-0.3.1
+package:::2014:1077.1:::mozilla-nss-tools:::3.16-0.3.1
+advisory:::2014:0794.1:::1397656800:::L:::SUSE-SU-2014:0529-1: Security update for strongswan:::
+package:::2014:0794.1:::strongswan:::4.4.0-6.23.1
+package:::2014:0794.1:::strongswan-doc:::4.4.0-6.23.1
+advisory:::2014:0610.1:::1395842400:::M:::SUSE-SU-2014:0446-1: Security update for Xen:::
+package:::2014:0610.1:::xen:::4.0.3_21548_16-0.5.1
+package:::2014:0610.1:::xen-doc-html:::4.0.3_21548_16-0.5.1
+package:::2014:0610.1:::xen-doc-pdf:::4.0.3_21548_16-0.5.1
+package:::2014:0610.1:::xen-kmp-default:::4.0.3_21548_16_2.6.32.59_0.9-0.5.1
+package:::2014:0610.1:::xen-kmp-pae:::4.0.3_21548_16_2.6.32.59_0.9-0.5.1
+package:::2014:0610.1:::xen-kmp-trace:::4.0.3_21548_16_2.6.32.59_0.9-0.5.1
+package:::2014:0610.1:::xen-libs:::4.0.3_21548_16-0.5.1
+package:::2014:0610.1:::xen-tools:::4.0.3_21548_16-0.5.1
+package:::2014:0610.1:::xen-tools-domU:::4.0.3_21548_16-0.5.1
+advisory:::2014:0452.1:::1393945200:::M:::SUSE-SU-2014:0322-1: Security update for gnutls:::
+package:::2014:0452.1:::gnutls:::2.4.1-24.39.49.1
+package:::2014:0452.1:::libgnutls26:::2.4.1-24.39.49.1
+package:::2014:0452.1:::libgnutls-extra26:::2.4.1-24.39.49.1
+advisory:::2014:0403.1:::1393340400:::H:::SUSE-SU-2014:0266-3: Security update for IBM Java 6:::
+package:::2014:0403.1:::java-1_6_0-ibm:::1.6.0_sr15.1-0.6.1
+package:::2014:0403.1:::java-1_6_0-ibm-alsa:::1.6.0_sr15.1-0.6.1
+package:::2014:0403.1:::java-1_6_0-ibm-fonts:::1.6.0_sr15.1-0.6.1
+package:::2014:0403.1:::java-1_6_0-ibm-jdbc:::1.6.0_sr15.1-0.6.1
+package:::2014:0403.1:::java-1_6_0-ibm-plugin:::1.6.0_sr15.1-0.6.1
+advisory:::2014:0372.1:::1392908400:::M:::SUSE-SU-2014:0248-2: Security update for Mozilla Firefox:::
+package:::2014:0372.1:::firefox-libgcc_s1:::4.7.2_20130108-0.16.1
+package:::2014:0372.1:::firefox-libstdc++6:::4.7.2_20130108-0.16.1
+package:::2014:0372.1:::libfreebl3:::3.15.4-0.4.2.1
+package:::2014:0372.1:::MozillaFirefox:::24.3.0esr-0.4.2.2
+package:::2014:0372.1:::MozillaFirefox-branding-SLED:::24-0.4.10.4
+package:::2014:0372.1:::MozillaFirefox-translations:::24.3.0esr-0.4.2.2
+package:::2014:0372.1:::mozilla-nspr:::4.10.2-0.3.2
+package:::2014:0372.1:::mozilla-nss:::3.15.4-0.4.2.1
+package:::2014:0372.1:::mozilla-nss-tools:::3.15.4-0.4.2.1
+advisory:::2013:4708.1:::1386082920:::M:::SUSE-SU-2013:1807-1:Security update for mozilla-nspr, mozilla-nss:::
+package:::2013:4708.1:::libfreebl3:::3.15.3-0.3.1
+package:::2013:4708.1:::mozilla-nspr:::4.10.2-0.3.1
+package:::2013:4708.1:::mozilla-nss:::3.15.3-0.3.1
+package:::2013:4708.1:::mozilla-nss-tools:::3.15.3-0.3.1
+advisory:::2013:4603.1:::1384875600:::H:::SUSE-SU-2013:1677-2:Security update for Java 6:::
+package:::2013:4603.1:::java-1_6_0-ibm:::1.6.0_sr15.0-0.5.1
+package:::2013:4603.1:::java-1_6_0-ibm-alsa:::1.6.0_sr15.0-0.5.1
+package:::2013:4603.1:::java-1_6_0-ibm-fonts:::1.6.0_sr15.0-0.5.1
+package:::2013:4603.1:::java-1_6_0-ibm-jdbc:::1.6.0_sr15.0-0.5.1
+package:::2013:4603.1:::java-1_6_0-ibm-plugin:::1.6.0_sr15.0-0.5.1
+advisory:::2013:4590.1:::1384527600:::M:::SUSE-SU-2013:1678-1:Security update for Mozilla Firefox:::
+package:::2013:4590.1:::libfreebl3:::3.15.2-0.3.1
+package:::2013:4590.1:::MozillaFirefox:::17.0.10esr-0.4.2.1
+package:::2013:4590.1:::MozillaFirefox-branding-SLED:::7-0.6.9.60
+package:::2013:4590.1:::MozillaFirefox-translations:::17.0.10esr-0.4.2.1
+package:::2013:4590.1:::mozilla-nspr:::4.10.1-0.3.1
+package:::2013:4590.1:::mozilla-nss-3.15.2-0.3.1:::17.0.10esr-0.4.2.1
+package:::2013:4590.1:::mozilla-nss-tools:::3.15.2-0.3.1
+advisory:::2013:3803.1:::1377266400:::L:::SUSE-SU-2013:1325-2: Security update for Mozilla Firefox:::
+package:::2013:3803.1:::MozillaFirefox:::17.0.8esr-0.4.2.1
+package:::2013:3803.1:::MozillaFirefox-translations:::17.0.8esr-0.4.2.1
+advisory:::2013:3699.1:::1376316060:::M:::SUSE-SU-2013:1315-1:Security update for PHP5:::
+package:::2013:3699.1:::apache2-mod_php5:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-bcmath:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-bz2:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-calendar:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-ctype:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-curl:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-dba:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-dbase:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-dom:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-exif:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-fastcgi:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-ftp:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-gd:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-gettext:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-gmp:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-hash:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-iconv:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-json:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-ldap:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-mbstring:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-mcrypt:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-mysql:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-odbc:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-openssl:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-pcntl:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-pdo:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-pear:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-pgsql:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-pspell:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-shmop:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-snmp:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-soap:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-suhosin:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-sysvmsg:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-sysvsem:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-sysvshm:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-tokenizer:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-wddx:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-xmlreader:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-xmlrpc:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-xmlwriter:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-xsl:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-zip:::5.2.14-0.7.30.48.1
+package:::2013:3699.1:::php5-zlib:::5.2.14-0.7.30.48.1
+advisory:::2013:3639.1:::1375797600:::M:::SUSE Security Announcement: Security update for IBM Java 1.4.2 (SUSE-SU-2013:1293-2):::
+package:::2013:3639.1:::java-1_4_2-ibm:::1.4.2_sr13.18-0.4.1
+package:::2013:3639.1:::java-1_4_2-ibm-jdbc:::1.4.2_sr13.18-0.4.1
+package:::2013:3639.1:::java-1_4_2-ibm-plugin:::1.4.2_sr13.18-0.4.1
+advisory:::2013:3430.1:::1375281600:::L:::SUSE-SU-2013:1255-3: Security update for IBM Java 1.6.0:::
+package:::2013:3430.1:::java-1_6_0-ibm:::1.6.0_sr14.0-0.3.1
+package:::2013:3430.1:::java-1_6_0-ibm-alsa:::1.6.0_sr14.0-0.3.1
+package:::2013:3430.1:::java-1_6_0-ibm-fonts:::1.6.0_sr14.0-0.3.1
+package:::2013:3430.1:::java-1_6_0-ibm-jdbc:::1.6.0_sr14.0-0.3.1
+package:::2013:3430.1:::java-1_6_0-ibm-plugin:::1.6.0_sr14.0-0.3.1
+advisory:::2013:2136.1:::1370268900:::M:::SUSE-SU-2013:0850-1:Security update for Mozilla Firefox:::
+package:::2013:2136.1:::ibfreebl3:::3.14.3-0.4.3.1
+package:::2013:2136.1:::MozillaFirefox:::17.0.6esr-0.4.1
+package:::2013:2136.1:::MozillaFirefox-branding-SLED:::7-0.6.9.20
+package:::2013:2136.1:::MozillaFirefox-translations:::17.0.6esr-0.4.1
+package:::2013:2136.1:::mozilla-nspr:::4.9.6-0.3.1
+package:::2013:2136.1:::mozilla-nss:::3.14.3-0.4.3.1
+package:::2013:2136.1:::mozilla-nss-tools:::3.14.3-0.4.3.1
+advisory:::2013:1723.1:::1366812000:::M:::SUSE-SU-2013:0633-2:Security update for PostgreSQL:::
+package:::2013:1723.1:::libecpg6:::9.1.9-0.3.1
+package:::2013:1723.1:::libpq5:::9.1.9-0.3.1
+package:::2013:1723.1:::postgresql91:::9.1.9-0.3.1
+package:::2013:1723.1:::postgresql91-contrib:::9.1.9-0.3.1
+package:::2013:1723.1:::postgresql91-docs:::9.1.9-0.3.1
+package:::2013:1723.1:::postgresql91-server:::9.1.9-0.3.1
+advisory:::2013:1164.1:::1363356060:::L:::SUSE-SU-2013:0440-3:Security update for Java:::
+package:::2013:1164.1:::java-1_4_2-ibm:::1.4.2_sr13.15-0.3.1
+package:::2013:1164.1:::java-1_4_2-ibm-jdbc:::1.4.2_sr13.15-0.3.1
+package:::2013:1164.1:::java-1_4_2-ibm-plugin:::1.4.2_sr13.15-0.3.1
+advisory:::2012:3630.1:::1351173600:::L:::SUSE-SU-2012:1390-1:Security update for bind:::
+package:::2012:3630.1:::bind:::9.6ESVR7P4-0.2.3.1
+package:::2012:3630.1:::bind-chrootenv:::9.6ESVR7P4-0.2.3.1
+package:::2012:3630.1:::bind-doc:::9.6ESVR7P4-0.2.3.1
+package:::2012:3630.1:::bind-libs:::9.6ESVR7P4-0.2.3.1
+package:::2012:3630.1:::bind-utils:::9.6ESVR7P4-0.2.3.1
+advisory:::2012:3068.1:::1347631200:::L:::SUSE-SU-2012:1055-2: Security update for debus-1:::
+package:::2012:3068.1:::dbus-1:::1.2.10-3.25.2
+package:::2012:3068.1:::dbus-1-x11:::1.2.10-3.25.2
+advisory:::2012:3055.1:::1347631200:::L:::SUSE-SU-2012:1062-1: Security update for Xen:::
+package:::2012:3055.1:::xen:::4.0.3_21548_10-0.5.1
+package:::2012:3055.1:::xen-doc-html:::4.0.3_21548_10-0.5.1
+package:::2012:3055.1:::xen-doc-pdf:::4.0.3_21548_10-0.5.1
+package:::2012:3055.1:::xen-kmp-default:::4.0.3_21548_10-0.5.1
+package:::2012:3055.1:::xen-kmp-pae:::4.0.3_21548_10_2.6.32.59_0.7-0.5.1
+package:::2012:3055.1:::xen-kmp-trace:::4.0.3_21548_10-0.5.1
+package:::2012:3055.1:::xen-libs:::4.0.3_21548_10-0.5.1
+package:::2012:3055.1:::xen-tools:::4.0.3_21548_10-0.5.1
+package:::2012:3055.1:::xen-tools-domU:::4.0.3_21548_10-0.5.1
+advisory:::2012:2859.1:::1346162400:::L:::SUSE-SU-2012:1044-1: Security update for Xen:::
+package:::2012:2859.1:::vm-install:::0.4.34-0.3.1
+package:::2012:2859.1:::xen:::0_2.6.32.59_0.3-0.3.92
+package:::2012:2859.1:::xen-doc-html:::4.0.3_21548_08-0.7.1
+package:::2012:2859.1:::xen-doc-pdf:::4.0.3_21548_08-0.7.1
+package:::2012:2859.1:::xen-kmp-default:::4.0.3_21548_08-0.7.1
+package:::2012:2859.1:::xen-kmp-pae:::4.0.3_21548_08_2.6.32.59_0.7-0.7.1
+package:::2012:2859.1:::xen-kmp-trace:::4.0.3_21548_08-0.7.1
+package:::2012:2859.1:::xen-libs:::4.0.3_21548_08-0.7.1
+package:::2012:2859.1:::xen-tools:::4.0.3_21548_08-0.7.1
+package:::2012:2859.1:::xen-tools-domU:::4.0.3_21548_08-0.7.1
+advisory:::2012:2835.1:::1345816800:::L:::SUSE-SU-2012:1034-1: Security update for php5:::
+package:::2012:2835.1:::apache2-mod_php5:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-bcmath:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-bz2:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-calendar:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-ctype:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-curl:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-dba:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-dbase:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-dom:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-exif:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-fastcgi:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-ftp:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-gd:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-gettext:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-gmp:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-hash:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-iconv:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-json:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-ldap:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-mbstring:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-mcrypt:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-mysql:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-odbc:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-openssl:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-pcntl:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-pdo:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-pear:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-pgsql:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-pspell:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-shmop:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-snmp:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-soap:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-suhosin:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-sysvmsg:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-sysvsem:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-sysvshm:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-tokenizer:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-wddx:::5.2.14-0.36.1
+package:::2012:2835.1:::php5-wddx:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-xmlreader:::5.2.14-0.36.1
+package:::2012:2835.1:::php5-xmlreader:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-xmlrpc:::5.2.14-0.36.1
+package:::2012:2835.1:::php5-xmlrpc:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-xmlwriter:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-xsl:::5.2.14-0.36.1
+package:::2012:2835.1:::php5-xsl:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-zip:::5.2.14-0.7.30.42.1
+package:::2012:2835.1:::php5-zlib:::5.2.14-0.36.1
+package:::2012:2835.1:::php5-zlib:::5.2.14-0.7.30.42.1
+advisory:::2012:2706.1:::1344902400:::M:::SUSE-SU-2012:0984-1: important: Security update for MySQL:::
+package:::2012:2706.1:::libmysqlclient15:::5.0.96-0.4.1
+package:::2012:2706.1:::libmysqlclient_r15:::5.0.96-0.4.1
+package:::2012:2706.1:::mysql:::5.0.96-0.4.1
+package:::2012:2706.1:::mysql-client:::5.0.96-0.4.1
+package:::2012:2706.1:::mysql-Max:::5.0.96-0.4.1
+package:::2012:2706.1:::mysql-tools:::5.0.96-0.4.1
+advisory:::2012:2705.1:::1344902400:::L:::SUSE-SU-2012:0983-1: Security update for puppet:::
+package:::2012:2705.1:::puppet:::2.6.17-0.3.1
+package:::2012:2705.1:::puppet-server:::2.6.17-0.3.1
+advisory:::2012:2641.1:::1344348000:::L:::SUSE-SU-2012:0958-1: Security update for auditlog-keeper:::
+package:::2012:2641.1:::auditlog-keeper:::0.2.1-0.4.6.1
+advisory:::2012:2497.1:::1343138400:::M:::SUSE-SU-2012:0903-1: Security update for libexif:::
+package:::2012:2497.1:::libexif:::0.6.17-2.14.1
+advisory:::2012:2491.1:::1343052900:::M:::SUSE-SU-2012:0896-1: Security update for Mozilla Firefox:::
+package:::2012:2491.1:::MozillaFirefox:::10.0.6-0.4.1
+package:::2012:2491.1:::MozillaFirefox-branding-SLED:::7-0.6.7.70
+package:::2012:2491.1:::MozillaFirefox-translations:::10.0.6-0.4.1
+advisory:::2012:2480.1:::1342792800:::M:::SUSE-SU-2012:0894-1: Security update for libtiff:::
+package:::2012:2480.1:::libtiff3:::3.8.2-141.146.1
+package:::2012:2480.1:::tiff:::3.8.2-141.146.1
+advisory:::2012:2022.1:::1340029800:::L:::SUSE-SU-2012:0746-1: Security update for Mozilla Firefox:::
+package:::2012:2022.1:::libfreebl3:::3.13.5-0.4.2
+package:::2012:2022.1:::MozillaFirefox:::10.0.5-0.3.6
+package:::2012:2022.1:::MozillaFirefox-translations:::10.0.5-0.3.6
+package:::2012:2022.1:::mozilla-nspr:::4.9.1-0.5.1
+package:::2012:2022.1:::mozilla-nss:::3.13.5-0.4.2
+package:::2012:2022.1:::mozilla-nss-tools:::3.13.5-0.4.2
+advisory:::2012:1985.1:::1339768860:::L:::SUSE-SU-2012:0741-1: Security update for bind:::
+package:::2012:1985.1:::bind:::9.6ESVR7P1-0.2.5.1
+package:::2012:1985.1:::bind-chrootenv:::9.6ESVR7P1-0.2.5.1
+package:::2012:1985.1:::bind-doc:::9.6ESVR7P1-0.2.5.1
+package:::2012:1985.1:::bind-libs:::9.6ESVR7P1-0.2.5.1
+package:::2012:1985.1:::bind-utils:::9.6ESVR7P1-0.2.5.1
+advisory:::2012:1963.2:::1339768800:::L:::SUSE-SU-2012:0734-1: Security update for IBM Java:::
+package:::2012:1963.2:::java-1_4_2-ibm:::1.4.2_sr13.12-0.2.1
+package:::2012:1963.2:::java-1_4_2-ibm-jdbc:::1.4.2_sr13.12-0.2.1
+package:::2012:1963.2:::java-1_4_2-ibm-plugin:::1.4.2_sr13.12-0.2.1
+advisory:::2012:1896.1:::1339423320:::M:::SUSE-SU-2012:0721-1: Security update for PHP5:::
+package:::2012:1896.1:::apache2-mod_php5-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-bcmath-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-bz2-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-calendar-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-ctype-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-curl-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-dba-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-dbase-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-dom-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-exif-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-fastcgi-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-ftp-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-gd-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-gettext-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-gmp-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-hash-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-iconv-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-json-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-ldap-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-mbstring-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-mcrypt-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-mysql-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-odbc-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-openssl-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-pcntl-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-pdo-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-pear-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-pgsql-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-pspell-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-shmop-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-snmp-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-soap-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-suhosin-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-sysvmsg-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-sysvsem-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-sysvshm-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-tokenizer-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-wddx-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-xmlreader-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-xmlrpc-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-xmlwriter-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-xsl-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-zip-5.2:::14-0.7.30.40.1
+package:::2012:1896.1:::php5-zlib-5.2:::14-0.7.30.40.1
+advisory:::2012:1770.1:::1338472800:::L:::SUSE-SU-2012:0678-1: Security update for openssl:::
+package:::2012:1770.1:::libopenssl0_9_8:::0.9.8j-0.38.1
+package:::2012:1770.1:::openssl:::0.9.8j-0.38.1
+package:::2012:1770.1:::openssl-doc:::0.9.8j-0.38.1
+advisory:::2012:1629.1:::1337090400:::L:::SUSE-SU-2012:0616-1: Security update for Linux kernel:::
+package:::2012:1629.1:::btrfs-kmp-default:::0_2.6.32.59_0.3-0.3.92
+package:::2012:1629.1:::btrfs-kmp-pae:::0_2.6.32.59_0.3-0.3.92
+package:::2012:1629.1:::btrfs-kmp-xen:::0_2.6.32.59_0.3-0.3.92
+package:::2012:1629.1:::ext4dev-kmp-default:::0_2.6.32.59_0.3-7.9.59
+package:::2012:1629.1:::ext4dev-kmp-pae:::0_2.6.32.59_0.3-7.9.59
+package:::2012:1629.1:::ext4dev-kmp-trace:::0_2.6.32.59_0.3-7.9.59
+package:::2012:1629.1:::ext4dev-kmp-xen:::0_2.6.32.59_0.3-7.9.59
+package:::2012:1629.1:::hyper-v-kmp-default:::0_2.6.32.59_0.3-0.18.16
+package:::2012:1629.1:::hyper-v-kmp-pae:::0_2.6.32.59_0.3-0.18.16
+package:::2012:1629.1:::hyper-v-kmp-trace:::0_2.6.32.59_0.3-0.18.16
+package:::2012:1629.1:::kernel-default:::2.6.32.59-0.3.1
+package:::2012:1629.1:::kernel-default-base:::2.6.32.59-0.3.1
+package:::2012:1629.1:::kernel-default-devel:::2.6.32.59-0.3.1
+package:::2012:1629.1:::kernel-ec2:::2.6.32.59-0.3.1
+package:::2012:1629.1:::kernel-ec2-base:::2.6.32.59-0.3.1
+package:::2012:1629.1:::kernel-ec2-devel:::2.6.32.59-0.3.1
+package:::2012:1629.1:::kernel-pae:::2.6.32.59-0.3.1
+package:::2012:1629.1:::kernel-pae-base:::2.6.32.59-0.3.1
+package:::2012:1629.1:::kernel-pae-devel:::2.6.32.59-0.3.1
+package:::2012:1629.1:::kernel-source:::2.6.32.59-0.3.1
+package:::2012:1629.1:::kernel-syms:::2.6.32.59-0.3.1
+package:::2012:1629.1:::kernel-trace:::2.6.32.59-0.3.1
+package:::2012:1629.1:::kernel-trace-base:::2.6.32.59-0.3.1
+package:::2012:1629.1:::kernel-trace-devel:::2.6.32.59-0.3.1
+package:::2012:1629.1:::kernel-xen:::2.6.32.59-0.3.1
+package:::2012:1629.1:::kernel-xen-base:::2.6.32.59-0.3.1
+package:::2012:1629.1:::kernel-xen-devel:::2.6.32.59-0.3.1
+advisory:::2012:1609.1:::1336658400:::L:::SUSE-SU-2012:0603-1: Security update for IBM Java 1.6.0:::
+package:::2012:1609.1:::java-1_6_0-ibm:::1.6.0_sr10.1-0.3.1
+package:::2012:1609.1:::java-1_6_0-ibm-alsa:::1.6.0_sr10.1-0.3.1
+package:::2012:1609.1:::java-1_6_0-ibm-fonts:::1.6.0_sr10.1-0.3.1
+package:::2012:1609.1:::java-1_6_0-ibm-jdbc:::1.6.0_sr10.1-0.3.1
+package:::2012:1609.1:::java-1_6_0-ibm-plugin:::1.6.0_sr10.1-0.3.1
+advisory:::2012:1597.1:::1336572000:::M:::SUSE-SU-2012:0598-2: Security update for PHP5:::
+package:::2012:1597.1:::apache2-mod_php5:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-bcmath:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-bz2:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-calendar:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-ctype:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-curl:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-dba:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-dbase:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-dom:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-exif:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-fastcgi:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-ftp:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-gd:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-gettext:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-gmp:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-hash:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-iconv:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-json:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-ldap:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-mbstring:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-mcrypt:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-mysql:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-odbc:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-openssl:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-pcntl:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-pdo:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-pear:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-pgsql:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-pspell:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-shmop:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-snmp:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-soap:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-suhosin:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-sysvmsg:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-sysvsem:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-sysvshm:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-tokenizer:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-wddx:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-xmlreader:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-xmlrpc:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-xmlwriter:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-xsl:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-zip:::5.2.14-0.7.30.38.1
+package:::2012:1597.1:::php5-zlib:::5.2.14-0.7.30.38.1
+advisory:::2012:1521.1:::1336053600:::M:::SUSE-SU-2012:0580-1: Security update for Mozilla Firefox:::
+package:::2012:1521.1:::libfreebl3:::3.13.4-0.2.1
+package:::2012:1521.1:::MozillaFirefox:::10.0.4-0.3.3
+package:::2012:1521.1:::MozillaFirefox-translations:::10.0.4-0.3.3
+package:::2012:1521.1:::mozilla-nss:::3.13.4-0.2.1
+package:::2012:1521.1:::mozilla-nss-tools:::3.13.4-0.2.1
+advisory:::2012:1502.1:::1335967260:::M:::SUSE-SU-2012:0575-1: Security update for Samba:::
+package:::2012:1502.1:::cifs-mount:::3.4.3-1.40.3
+package:::2012:1502.1:::ldapsmb:::1.34b-11.28.40.3
+package:::2012:1502.1:::libsmbclient0:::3.4.3-1.40.3
+package:::2012:1502.1:::libtalloc1:::3.4.3-1.40.3
+package:::2012:1502.1:::libtdb1:::3.4.3-1.40.3
+package:::2012:1502.1:::libwbclient0:::3.4.3-1.40.3
+package:::2012:1502.1:::samba:::3.4.3-1.40.3
+package:::2012:1502.1:::samba-client:::3.4.3-1.40.3
+package:::2012:1502.1:::samba-krb-printing:::3.4.3-1.40.3
+package:::2012:1502.1:::samba-winbind:::3.4.3-1.40.3
+advisory:::2012:1274.1:::1334584920:::H:::SUSE-SU-2012:0500-1: Security update for Samba:::
+package:::2012:1274.1:::cifs-mount:::3.4.3-1.38.1
+package:::2012:1274.1:::ldapsmb:::1.34b-11.28.38.1
+package:::2012:1274.1:::libsmbclient0:::3.4.3-1.38.1
+package:::2012:1274.1:::libtalloc1:::3.4.3-1.38.1
+package:::2012:1274.1:::libtdb1:::3.4.3-1.38.1
+package:::2012:1274.1:::libwbclient0:::3.4.3-1.38.1
+package:::2012:1274.1:::samba:::3.4.3-1.38.1
+package:::2012:1274.1:::samba-client:::3.4.3-1.38.1
+package:::2012:1274.1:::samba-doc:::3.4.3-1.38.1
+package:::2012:1274.1:::samba-krb-printing:::3.4.3-1.38.1
+package:::2012:1274.1:::samba-winbind:::3.4.3-1.38.1
+advisory:::2012:1259.1:::1334584920:::H:::SUSE-SU-2012:0496-1: Security update for PHP5:::
+package:::2012:1259.1:::apache2-mod_php5:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-bcmath:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-bz2:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-calendar:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-ctype:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-curl:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-dba:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-dbase:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-dom:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-exif:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-fastcgi:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-ftp:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-gd:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-gettext:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-gmp:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-hash:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-iconv:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-json:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-ldap:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-mbstring:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-mcrypt:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-mysql:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-odbc:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-openssl:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-pcntl:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-pdo:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-pear:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-pgsql:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-pspell:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-shmop:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-snmp:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-soap:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-suhosin:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-sysvmsg:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-sysvsem:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-sysvshm:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-tokenizer:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-wddx:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-xmlreader:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-xmlrpc:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-xmlwriter:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-xsl:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-zip:::5.2.14-0.7.30.34.1
+package:::2012:1259.1:::php5-zlib:::5.2.14-0.7.30.34.1
+advisory:::2012:1245.1:::1334239260:::M:::SUSE-SU-2012:0484-1: Security update for freetype2:::
+package:::2012:1245.1:::freetype2:::2.3.7-25.30.1
+package:::2012:1245.1:::ft2demos:::2.3.7-25.30.1
+advisory:::2012:1068.1:::1333029600:::M:::SUSE-SU-2012:0424-1: Security update for Mozilla Firefox:::
+package:::2012:1068.1:::libfreebl3:::3.13.3-0.2.1
+package:::2012:1068.1:::libfreebl3-32bit:::3.13.3-0.2.1
+package:::2012:1068.1:::MozillaFirefox:::10.0.3-0.7.1
+package:::2012:1068.1:::MozillaFirefox-translations:::10.0.3-0.7.1
+package:::2012:1068.1:::mozilla-nspr-32bit:::4.9.0-0.3.1
+package:::2012:1068.1:::mozilla-nspr:::4.9.0-0.3.1
+package:::2012:1068.1:::mozilla-nss:::3.13.3-0.2.1
+package:::2012:1068.1:::mozilla-nss-32bit:::3.13.3-0.2.1
+package:::2012:1068.1:::mozilla-nss-tools:::3.13.3-0.2.1
+advisory:::2012:0802.1:::1331132460:::M:::SUSE-SU-2012:0114-2: Security update for IBM Java 1.6.0:::
+package:::2012:0802.1:::java-1_6_0-ibm:::1.6.0_sr10.0-0.3.1
+package:::2012:0802.1:::java-1_6_0-ibm-fonts:::1.6.0_sr10.0-0.3.1
+package:::2012:0802.1:::java-1_6_0-ibm-jdbc:::1.6.0_sr10.0-0.3.1
+package:::2012:0802.1:::java-1_6_0-ibm-plugin:::1.6.0_sr10.0-0.3.1
+advisory:::2012:0795.1:::1331132460:::M:::SUSE-SU-2012:0326-1: Security update for libvorbis:::
+package:::2012:0795.1:::libvorbis:::1.2.0-79.20.1
+package:::2012:0795.1:::libvorbis-32bit:::1.2.0-79.20.1
+package:::2012:0795.1:::libvorbis-doc:::1.2.0-79.20.1
+advisory:::2012:0794.1:::1331132400:::L:::SUSE-SU-2012:0325-1: Security update for puppet:::
+package:::2012:0794.1:::puppet:::2.6.12-0.12.1
+package:::2012:0794.1:::puppet-server:::2.6.12-0.12.1
+advisory:::2012:0727.1:::1330527600:::M:::SUSE-SU-2012:0318-1: Security update for libpng:::
+package:::2012:0727.1:::libpng12-0:::1.2.31-5.27.1
+package:::2012:0727.1:::libpng12-0-32bit:::1.2.8-19.33.7
+advisory:::2012:0705.1:::1330354800:::M:::SUSE-SU-2012:0303-1: Security update for Mozilla Firefox:::
+package:::2012:0705.1:::MozillaFirefox:::10.0.2-0.4.1
+package:::2012:0705.1:::MozillaFirefox-translations:::10.0.2-0.4.1
+advisory:::2012:0703.1:::1330354800:::M:::SUSE-SU-2012:0298-1: Security update for Mozilla XULrunner:::
+package:::2012:0703.1:::mozilla-xulrunner192:::1.9.2.27-0.2.1
+package:::2012:0703.1:::mozilla-xulrunner192-32bit:::1.9.2.27-0.2.1
+package:::2012:0703.1:::mozilla-xulrunner192-gnome:::1.9.2.27-0.2.1
+package:::2012:0703.1:::mozilla-xulrunner192-translations:::1.9.2.27-0.2.1
+advisory:::2012:0692.1:::1330095600:::L:::SUSE-SU-2012:0122-2: Security update for IBM Java 1.4.2:::
+package:::2012:0692.1:::java-1_4_2-ibm:::1.4.2_sr13.11-0.5.1
+advisory:::2012:0612.1:::1329750060:::M:::SUSE-SU-2012:0284-1: Security update for Apache2:::
+package:::2012:0612.1:::apache2:::2.2.12-1.30.1
+package:::2012:0612.1:::apache2-doc:::2.2.12-1.30.1
+package:::2012:0612.1:::apache2-example-pages:::2.2.12-1.30.1
+package:::2012:0612.1:::apache2-prefork:::2.2.12-1.30.1
+package:::2012:0612.1:::apache2-utils:::2.2.12-1.30.1
+package:::2012:0612.1:::apache2-worker:::2.2.12-1.30.1
+package:::2012:0612.1:::libapr1:::1.3.3-11.18.19.1
+advisory:::2012:0567.1:::1329404460:::M:::SUSE-SU-2012:0261-1: Security update for Mozilla Firefox:::
+package:::2012:0567.1:::MozillaFirefox:::10.0.1-0.4.1
+package:::2012:0567.1:::MozillaFirefox-translations:::10.0.1-0.4.1
+advisory:::2012:0472.1:::1328886000:::M:::SUSE-SU-2012:0198-1: Security update for Mozilla XULrunner:::
+package:::2012:0472.1:::mozilla-xulrunner192:::1.9.2.26-0.3.1
+package:::2012:0472.1:::mozilla-xulrunner192-32bit:::1.9.2.26-0.3.1
+package:::2012:0472.1:::mozilla-xulrunner192-gnome:::1.9.2.26-0.3.1
+package:::2012:0472.1:::mozilla-xulrunner192-translations:::1.9.2.26-0.3.1
+advisory:::2012:0435.1:::1328626800:::L:::SUSE-SU-2012:0155-1: Security update for tomcat6:::
+package:::2012:0435.1:::tomcat6:::6.0.18-20.35.36.1
+package:::2012:0435.1:::tomcat6-admin-webapps:::6.0.18-20.35.36.1
+package:::2012:0435.1:::tomcat6-docs-webapp:::6.0.18-20.35.36.1
+package:::2012:0435.1:::tomcat6-javadoc:::6.0.18-20.35.36.1
+package:::2012:0435.1:::tomcat6-jsp-2_1-api:::6.0.18-20.35.36.1
+package:::2012:0435.1:::tomcat6-lib:::6.0.18-20.35.36.1
+package:::2012:0435.1:::tomcat6-servlet-2_5-api:::6.0.18-20.35.36.1
+package:::2012:0435.1:::tomcat6-webapps:::6.0.18-20.35.36.1
+advisory:::2012:0265.1:::1327503600:::L:::SUSE-SU-2012:0117-1: Security update for libxml2:::
+package:::2012:0265.1:::libxml2:::2.7.6-0.13.1
+package:::2012:0265.1:::libxml2-32bit:::2.7.6-0.13.1
+package:::2012:0265.1:::libxml2-doc:::2.7.6-0.13.1
+advisory:::2012:0183.1:::1326985200:::L:::SUSE-SU-2012:0097-1: Security update for libqt4:::
+package:::2012:0183.1:::libqt4-32bit:::4.6.3-5.12.1
+package:::2012:0183.1:::libqt4:::4.6.3-5.12.1
+package:::2012:0183.1:::libqt4-qt3support-32bit:::4.6.3-5.12.1
+package:::2012:0183.1:::libqt4-qt3support:::4.6.3-5.12.1
+package:::2012:0183.1:::libqt4-sql-32bit:::4.6.3-5.12.1
+package:::2012:0183.1:::libqt4-sql:::4.6.3-5.12.1
+package:::2012:0183.1:::libqt4-sql-sqlite:::4.6.3-5.12.1
+package:::2012:0183.1:::libqt4-x11-32bit:::4.6.3-5.12.1
+package:::2012:0183.1:::libqt4-x11:::4.6.3-5.12.1
+package:::2012:0183.1:::libQtWebKit4-32bit:::4.6.3-5.12.1
+package:::2012:0183.1:::libQtWebKit4:::4.6.3-5.12.1
+advisory:::2012:0155.1:::1326812400:::L:::SUSE-SU-2012:0084-1: Security update for OpenSSL:::
+package:::2012:0155.1:::libopenssl0_9_8:::0.9.8j-0.26.1
+package:::2012:0155.1:::libopenssl0_9_8-32bit:::0.9.8j-0.26.1
+package:::2012:0155.1:::openssl:::0.9.8j-0.26.1
+package:::2012:0155.1:::openssl-doc:::0.9.8j-0.26.1

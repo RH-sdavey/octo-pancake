@@ -1,0 +1,721 @@
+version:::2016.08.04.1
+advisory:::2016:3200.1:::1470234360:::M:::SUSE-SU-2016:1939-1: Security update for bsdtar:::
+package:::2016:3200.1:::libarchive2:::2.5.5-9.1
+advisory:::2016:3155.1:::1469800980:::L:::SUSE-SU-2016:1904-1: Security update for lha:::
+package:::2016:3155.1:::lha:::1.14.0.894-3.1
+advisory:::2016:2487.1:::1465308120:::M:::SUSE-SU-2016:1509-1: Security update for libksba:::
+package:::2016:2487.1:::libksba:::1.0.4-1.25.1
+advisory:::2016:3115.1:::1469455500:::L:::SUSE-SU-2016:1866-1: Security update for rsync:::
+package:::2016:3115.1:::rsync:::3.0.4-2.52.1
+advisory:::2016:3011.1:::1468938000:::L:::SUSE-SU-2016:1819-1: Security update for apache2:::
+package:::2016:3011.1:::apache2-doc:::2.2.12-64.1
+package:::2016:3011.1:::apache2-example-pages:::2.2.12-64.1
+package:::2016:3011.1:::apache2-prefork:::2.2.12-64.1
+package:::2016:3011.1:::apache2-utils:::2.2.12-64.1
+package:::2016:3011.1:::apache2-worker:::2.2.12-64.1
+package:::2016:3011.1:::apache2:::2.2.12-64.1
+advisory:::2016:2760.1:::1467036360:::M:::SUSE-SU-2016:1672-1: Security update for the Linux Kernel:::
+package:::2016:2760.1:::kernel-default-base:::3.0.101-77.1
+package:::2016:2760.1:::kernel-default-devel:::3.0.101-77.1
+package:::2016:2760.1:::kernel-source:::3.0.101-77.1
+package:::2016:2760.1:::kernel-syms:::3.0.101-77.1
+package:::2016:2760.1:::kernel-trace:::3.0.101-77.1
+package:::2016:2760.1:::kernel-trace-base:::3.0.101-77.1
+package:::2016:2760.1:::kernel-trace-devel:::3.0.101-77.1
+package:::2016:2760.1:::kernel-ec2:::3.0.101-77.1
+package:::2016:2760.1:::kernel-ec2-base:::3.0.101-77.1
+package:::2016:2760.1:::kernel-ec2-devel:::3.0.101-77.1
+package:::2016:2760.1:::kernel-xen:::3.0.101-77.1
+package:::2016:2760.1:::kernel-xen-base:::3.0.101-77.1
+package:::2016:2760.1:::kernel-xen-devel:::3.0.101-77.1
+package:::2016:2760.1:::kernel-default:::3.0.101-77.1
+advisory:::2016:2910.1:::1468332060:::M:::SUSE-SU-2016:1785-1: Security update for kvm:::
+package:::2016:2910.1:::kvm:::1.4.2-44.1
+advisory:::2016:2907.1:::1468332000:::M:::SUSE-SU-2016:1782-1: Security update for ImageMagick:::
+package:::2016:2907.1:::libMagickCore1-32bit:::6.4.3.6-7.45.1
+package:::2016:2907.1:::libMagickCore1:::6.4.3.6-7.45.1
+advisory:::2016:2697.1:::1466604120:::L:::SUSE-SU-2016:1645-1: Security update for pam:::
+package:::2016:2697.1:::pam-doc:::1.1.5-0.17.2
+package:::2016:2697.1:::pam-32bit:::1.1.5-0.17.2
+package:::2016:2697.1:::pam:::1.1.5-0.17.2
+advisory:::2016:2650.1:::1466431260:::M:::SUSE-SU-2016:1618-1: Security update for mysql:::
+package:::2016:2650.1:::libmysqlclient_r15:::5.0.96-0.8.10.3
+package:::2016:2650.1:::libmysqlclient15-32bit:::5.0.96-0.8.10.3
+package:::2016:2650.1:::libmysqlclient15:::5.0.96-0.8.10.3
+advisory:::2016:2644.1:::1466172180:::M:::SUSE-SU-2016:1604-1: Security update for libxml2:::
+package:::2016:2644.1:::libxml2-doc:::2.7.6-0.44.1
+package:::2016:2644.1:::libxml2-python:::2.7.6-0.44.4
+package:::2016:2644.1:::libxml2-32bit:::2.7.6-0.44.1
+package:::2016:2644.1:::libxml2:::2.7.6-0.44.1
+advisory:::2016:2639.1:::1466172180:::M:::SUSE-SU-2016:1600-1: Security update for libtasn1:::
+package:::2016:2639.1:::libtasn1-3:::1.5-1.34.1
+package:::2016:2639.1:::libtasn1-3-32bit:::1.5-1.34.1
+package:::2016:2639.1:::libtasn1:::1.5-1.34.1
+advisory:::2016:2574.1:::1465999260:::M:::SUSE-SU-2016:1528-1: Security update for openssh:::
+package:::2016:2574.1:::openssh-askpass-gnome:::6.6p1-21.3
+package:::2016:2574.1:::openssh-fips:::6.6p1-21.1
+package:::2016:2574.1:::openssh-helpers:::6.6p1-21.1
+package:::2016:2574.1:::openssh:::6.6p1-21.1
+advisory:::2016:2578.1:::1465999440:::M:::SUSE-SU-2016:1544-1: Security update for poppler:::
+package:::2016:2578.1:::libpoppler-qt4-3:::0.12.3-1.12.1
+package:::2016:2578.1:::libpoppler5:::0.12.3-1.12.1
+package:::2016:2578.1:::poppler-tools:::0.12.3-1.12.1
+package:::2016:2578.1:::libpoppler-glib4:::0.12.3-1.12.1
+advisory:::2016:2595.1:::1465999320:::M:::SUSE-SU-2016:1581-1: Security update for php53:::
+package:::2016:2595.1:::php53:::5.3.17-71.1
+package:::2016:2595.1:::php53-bcmath:::5.3.17-71.1
+package:::2016:2595.1:::php53-bz2:::5.3.17-71.1
+package:::2016:2595.1:::php53-calendar:::5.3.17-71.1
+package:::2016:2595.1:::php53-ctype:::5.3.17-71.1
+package:::2016:2595.1:::php53-curl:::5.3.17-71.1
+package:::2016:2595.1:::php53-dba:::5.3.17-71.1
+package:::2016:2595.1:::php53-dom:::5.3.17-71.1
+package:::2016:2595.1:::php53-exif:::5.3.17-71.1
+package:::2016:2595.1:::php53-fastcgi:::5.3.17-71.1
+package:::2016:2595.1:::php53-fileinfo:::5.3.17-71.1
+package:::2016:2595.1:::php53-ftp:::5.3.17-71.1
+package:::2016:2595.1:::php53-gd:::5.3.17-71.1
+package:::2016:2595.1:::php53-gettext:::5.3.17-71.1
+package:::2016:2595.1:::php53-gmp:::5.3.17-71.1
+package:::2016:2595.1:::php53-iconv:::5.3.17-71.1
+package:::2016:2595.1:::php53-intl:::5.3.17-71.1
+package:::2016:2595.1:::php53-json:::5.3.17-71.1
+package:::2016:2595.1:::php53-ldap:::5.3.17-71.1
+package:::2016:2595.1:::php53-mbstring:::5.3.17-71.1
+package:::2016:2595.1:::php53-mcrypt:::5.3.17-71.1
+package:::2016:2595.1:::php53-mysql:::5.3.17-71.1
+package:::2016:2595.1:::php53-odbc:::5.3.17-71.1
+package:::2016:2595.1:::php53-openssl:::5.3.17-71.1
+package:::2016:2595.1:::php53-pcntl:::5.3.17-71.1
+package:::2016:2595.1:::php53-pdo:::5.3.17-71.1
+package:::2016:2595.1:::php53-pear:::5.3.17-71.1
+package:::2016:2595.1:::php53-pgsql:::5.3.17-71.1
+package:::2016:2595.1:::php53-pspell:::5.3.17-71.1
+package:::2016:2595.1:::php53-shmop:::5.3.17-71.1
+package:::2016:2595.1:::php53-snmp:::5.3.17-71.1
+package:::2016:2595.1:::php53-soap:::5.3.17-71.1
+package:::2016:2595.1:::php53-suhosin:::5.3.17-71.1
+package:::2016:2595.1:::php53-sysvmsg:::5.3.17-71.1
+package:::2016:2595.1:::php53-sysvsem:::5.3.17-71.1
+package:::2016:2595.1:::php53-sysvshm:::5.3.17-71.1
+package:::2016:2595.1:::php53-tokenizer:::5.3.17-71.1
+package:::2016:2595.1:::php53-wddx:::5.3.17-71.1
+package:::2016:2595.1:::php53-xmlreader:::5.3.17-71.1
+package:::2016:2595.1:::php53-xmlrpc:::5.3.17-71.1
+package:::2016:2595.1:::php53-xmlwriter:::5.3.17-71.1
+package:::2016:2595.1:::php53-xsl:::5.3.17-71.1
+package:::2016:2595.1:::php53-zip:::5.3.17-71.1
+package:::2016:2595.1:::php53-zlib:::5.3.17-71.1
+package:::2016:2595.1:::apache2-mod_php53:::5.3.17-71.1
+advisory:::2016:2596.1:::1465999260:::L:::SUSE-SU-2016:1584-1: Security update for ntp:::
+package:::2016:2596.1:::ntp-doc:::4.2.8p8-14.1
+package:::2016:2596.1:::ntp:::4.2.8p8-14.1
+advisory:::2016:2497.1:::1465394820:::M:::SUSE-SU-2016:1514-1: Security update for supportutils:::
+package:::2016:2497.1:::supportutils:::1.20-121.1
+advisory:::2016:2496.1:::1465394760:::M:::SUSE-SU-2016:1512-1: Security update for expat:::
+package:::2016:2496.1:::libexpat1:::2.0.1-88.38.1
+package:::2016:2496.1:::libexpat1-32bit:::2.0.1-88.38.1
+package:::2016:2496.1:::expat:::2.0.1-88.38.1
+advisory:::2016:2444.1:::1465221660:::L:::SUSE-SU-2016:1483-1: Security update for quagga:::
+package:::2016:2444.1:::quagga:::0.99.15-0.24.2
+advisory:::2016:2396.1:::1464791220:::L:::SUSE-SU-2016:1465-1: Recommended update for NetworkManager-kde4:::
+package:::2016:2396.1:::NetworkManager-kde4-lang:::0.9.svn1043876-1.3.15
+package:::2016:2396.1:::NetworkManager-kde4-libs:::0.9.svn1043876-1.3.15
+package:::2016:2396.1:::NetworkManager-openvpn-kde4:::0.9.svn1043876-1.3.15
+package:::2016:2396.1:::NetworkManager-pptp-kde4:::0.9.svn1043876-1.3.15
+package:::2016:2396.1:::plasmoid-networkmanagement:::0.9.svn1043876-1.3.15
+package:::2016:2396.1:::NetworkManager-kde4:::0.9.svn1043876-1.3.15
+advisory:::2016:2374.1:::1464791160:::M:::SUSE-SU-2016:1459-1: Security update for cyrus-imapd:::
+package:::2016:2374.1:::perl-Cyrus-IMAP:::2.3.11-60.65.67.1
+package:::2016:2374.1:::perl-Cyrus-SIEVE-managesieve:::2.3.11-60.65.67.1
+package:::2016:2374.1:::cyrus-imapd:::2.3.11-60.65.67.1
+advisory:::2016:2264.1:::1464012240:::M:::SUSE-SU-2016:1374-1: Security update for MozillaFirefox:::
+package:::2016:2264.1:::MozillaFirefox-translations:::38.8.0esr-40.5
+package:::2016:2264.1:::libfreebl3:::3.20.2-30.1
+package:::2016:2264.1:::libsoftokn3:::3.20.2-30.1
+package:::2016:2264.1:::mozilla-nspr:::4.12-26.1
+package:::2016:2264.1:::mozilla-nss:::3.20.2-30.1
+package:::2016:2264.1:::mozilla-nss-tools:::3.20.2-30.1
+package:::2016:2264.1:::libfreebl3-32bit:::3.20.2-30.1
+package:::2016:2264.1:::libsoftokn3-32bit:::3.20.2-30.1
+package:::2016:2264.1:::mozilla-nspr-32bit:::4.12-26.1
+package:::2016:2264.1:::mozilla-nss-32bit:::3.20.2-30.1
+package:::2016:2264.1:::MozillaFirefox:::38.8.0esr-40.5
+advisory:::2016:2241.1:::1463752800:::L:::SUSE-SU-2016:1366-1: Recommended udpate for SUSE Manager Client Tools:::
+package:::2016:2241.1:::suseRegisterInfo:::2.1.12-14.2
+package:::2016:2241.1:::rhnlib:::2.5.69.8-11.2
+advisory:::2016:2227.1:::1463666460:::L:::SUSE-SU-2016:1345-1: Security update for wireshark:::
+package:::2016:2227.1:::wireshark:::1.12.11-0.18.1
+advisory:::2016:2171.1:::1463494380:::M:::SUSE-SU-2016:1310-1: Security update for php53:::
+package:::2016:2171.1:::php53:::5.3.17-62.1
+package:::2016:2171.1:::php53-bcmath:::5.3.17-62.1
+package:::2016:2171.1:::php53-bz2:::5.3.17-62.1
+package:::2016:2171.1:::php53-calendar:::5.3.17-62.1
+package:::2016:2171.1:::php53-ctype:::5.3.17-62.1
+package:::2016:2171.1:::php53-curl:::5.3.17-62.1
+package:::2016:2171.1:::php53-dba:::5.3.17-62.1
+package:::2016:2171.1:::php53-dom:::5.3.17-62.1
+package:::2016:2171.1:::php53-exif:::5.3.17-62.1
+package:::2016:2171.1:::php53-fastcgi:::5.3.17-62.1
+package:::2016:2171.1:::php53-fileinfo:::5.3.17-62.1
+package:::2016:2171.1:::php53-ftp:::5.3.17-62.1
+package:::2016:2171.1:::php53-gd:::5.3.17-62.1
+package:::2016:2171.1:::php53-gettext:::5.3.17-62.1
+package:::2016:2171.1:::php53-gmp:::5.3.17-62.1
+package:::2016:2171.1:::php53-iconv:::5.3.17-62.1
+package:::2016:2171.1:::php53-intl:::5.3.17-62.1
+package:::2016:2171.1:::php53-json:::5.3.17-62.1
+package:::2016:2171.1:::php53-ldap:::5.3.17-62.1
+package:::2016:2171.1:::php53-mbstring:::5.3.17-62.1
+package:::2016:2171.1:::php53-mcrypt:::5.3.17-62.1
+package:::2016:2171.1:::php53-mysql:::5.3.17-62.1
+package:::2016:2171.1:::php53-odbc:::5.3.17-62.1
+package:::2016:2171.1:::php53-openssl:::5.3.17-62.1
+package:::2016:2171.1:::php53-pcntl:::5.3.17-62.1
+package:::2016:2171.1:::php53-pdo:::5.3.17-62.1
+package:::2016:2171.1:::php53-pear:::5.3.17-62.1
+package:::2016:2171.1:::php53-pgsql:::5.3.17-62.1
+package:::2016:2171.1:::php53-pspell:::5.3.17-62.1
+package:::2016:2171.1:::php53-shmop:::5.3.17-62.1
+package:::2016:2171.1:::php53-snmp:::5.3.17-62.1
+package:::2016:2171.1:::php53-soap:::5.3.17-62.1
+package:::2016:2171.1:::php53-suhosin:::5.3.17-62.1
+package:::2016:2171.1:::php53-sysvmsg:::5.3.17-62.1
+package:::2016:2171.1:::php53-sysvsem:::5.3.17-62.1
+package:::2016:2171.1:::php53-sysvshm:::5.3.17-62.1
+package:::2016:2171.1:::php53-tokenizer:::5.3.17-62.1
+package:::2016:2171.1:::php53-wddx:::5.3.17-62.1
+package:::2016:2171.1:::php53-xmlreader:::5.3.17-62.1
+package:::2016:2171.1:::php53-xmlrpc:::5.3.17-62.1
+package:::2016:2171.1:::php53-xmlwriter:::5.3.17-62.1
+package:::2016:2171.1:::php53-xsl:::5.3.17-62.1
+package:::2016:2171.1:::php53-zip:::5.3.17-62.1
+package:::2016:2171.1:::php53-zlib:::5.3.17-62.1
+package:::2016:2171.1:::apache2-mod_php53:::5.3.17-62.1
+advisory:::2016:2138.1:::1463407260:::M:::SUSE-SU-2016:1301-1: Security update for ImageMagick:::
+package:::2016:2138.1:::libMagickCore1-32bit:::6.4.3.6-7.37.1
+package:::2016:2138.1:::libMagickCore1:::6.4.3.6-7.37.1
+advisory:::2016:2137.1:::1463407200:::H:::SUSE-SU-2016:1300-1: Security update for java-1_7_1-ibm:::
+package:::2016:2137.1:::java-1_7_1-ibm-jdbc:::1.7.1_sr3.40-13.1
+package:::2016:2137.1:::java-1_7_1-ibm-alsa:::1.7.1_sr3.40-13.1
+package:::2016:2137.1:::java-1_7_1-ibm-plugin:::1.7.1_sr3.40-13.1
+package:::2016:2137.1:::java-1_7_1-ibm:::1.7.1_sr3.40-13.1
+advisory:::2016:2112.1:::1463148060:::M:::SUSE-SU-2016:1290-1: Security update for openssl:::
+package:::2016:2112.1:::libopenssl0_9_8-hmac:::0.9.8j-0.97.1
+package:::2016:2112.1:::openssl:::0.9.8j-0.97.1
+package:::2016:2112.1:::openssl-doc:::0.9.8j-0.97.1
+package:::2016:2112.1:::libopenssl0_9_8-32bit:::0.9.8j-0.97.1
+package:::2016:2112.1:::libopenssl0_9_8-hmac-32bit:::0.9.8j-0.97.1
+package:::2016:2112.1:::libopenssl0_9_8:::0.9.8j-0.97.1
+advisory:::2016:2096.1:::1463062920:::H:::SUSE-SU-2016:1275-1: Security update for ImageMagick:::
+package:::2016:2096.1:::libMagickCore1-32bit:::6.4.3.6-7.34.1
+package:::2016:2096.1:::libMagickCore1:::6.4.3.6-7.34.1
+advisory:::2016:2099.1:::1463062920:::L:::SUSE-SU-2016:1278-1: Security update for ntp:::
+package:::2016:2099.1:::ntp-doc:::4.2.8p7-11.1
+package:::2016:2099.1:::ntp:::4.2.8p7-11.1
+advisory:::2016:2100.1:::1463062860:::H:::SUSE-SU-2016:1279-1: Security update for mysql:::
+package:::2016:2100.1:::libmysql55client_r18:::5.5.49-0.20.1
+package:::2016:2100.1:::mysql:::5.5.49-0.20.1
+package:::2016:2100.1:::mysql-client:::5.5.49-0.20.1
+package:::2016:2100.1:::mysql-tools:::5.5.49-0.20.1
+package:::2016:2100.1:::libmysql55client18-32bit:::5.5.49-0.20.1
+package:::2016:2100.1:::libmysql55client_r18-32bit:::5.5.49-0.20.1
+package:::2016:2100.1:::libmysql55client18:::5.5.49-0.20.1
+advisory:::2016:1991.1:::1462802460:::M:::SUSE-SU-2016:1259-1: Security update for spice:::
+package:::2016:1991.1:::libspice-server1:::0.12.4-5.1
+advisory:::2016:1915.1:::1462370640:::L:::SUSE-SU-2016:1205-1: Security update for libxml2:::
+package:::2016:1915.1:::libxml2-doc:::2.7.6-0.40.1
+package:::2016:1915.1:::libxml2-python:::2.7.6-0.40.3
+package:::2016:1915.1:::libxml2-32bit:::2.7.6-0.40.1
+package:::2016:1915.1:::libxml2:::2.7.6-0.40.1
+advisory:::2016:1869.1:::1461938460:::M:::SUSE-SU-2016:1175-1: Security update for ntp:::
+package:::2016:1869.1:::ntp-doc:::4.2.8p6-8.2
+package:::2016:1869.1:::ntp:::4.2.8p6-8.2
+advisory:::2016:1819.1:::1461679260:::L:::SUSE-SU-2016:1149-1: Security update for freetype2:::
+package:::2016:1819.1:::ft2demos:::2.3.7-25.41.4
+package:::2016:1819.1:::freetype2-32bit:::2.3.7-25.41.4
+package:::2016:1819.1:::freetype2:::2.3.7-25.41.4
+advisory:::2016:1817.1:::1461679260:::M:::SUSE-SU-2016:1145-1: Security update for php53:::
+package:::2016:1817.1:::php53:::5.3.17-59.1
+package:::2016:1817.1:::php53-bcmath:::5.3.17-59.1
+package:::2016:1817.1:::php53-bz2:::5.3.17-59.1
+package:::2016:1817.1:::php53-calendar:::5.3.17-59.1
+package:::2016:1817.1:::php53-ctype:::5.3.17-59.1
+package:::2016:1817.1:::php53-curl:::5.3.17-59.1
+package:::2016:1817.1:::php53-dba:::5.3.17-59.1
+package:::2016:1817.1:::php53-dom:::5.3.17-59.1
+package:::2016:1817.1:::php53-exif:::5.3.17-59.1
+package:::2016:1817.1:::php53-fastcgi:::5.3.17-59.1
+package:::2016:1817.1:::php53-fileinfo:::5.3.17-59.1
+package:::2016:1817.1:::php53-ftp:::5.3.17-59.1
+package:::2016:1817.1:::php53-gd:::5.3.17-59.1
+package:::2016:1817.1:::php53-gettext:::5.3.17-59.1
+package:::2016:1817.1:::php53-gmp:::5.3.17-59.1
+package:::2016:1817.1:::php53-iconv:::5.3.17-59.1
+package:::2016:1817.1:::php53-intl:::5.3.17-59.1
+package:::2016:1817.1:::php53-json:::5.3.17-59.1
+package:::2016:1817.1:::php53-ldap:::5.3.17-59.1
+package:::2016:1817.1:::php53-mbstring:::5.3.17-59.1
+package:::2016:1817.1:::php53-mcrypt:::5.3.17-59.1
+package:::2016:1817.1:::php53-mysql:::5.3.17-59.1
+package:::2016:1817.1:::php53-odbc:::5.3.17-59.1
+package:::2016:1817.1:::php53-openssl:::5.3.17-59.1
+package:::2016:1817.1:::php53-pcntl:::5.3.17-59.1
+package:::2016:1817.1:::php53-pdo:::5.3.17-59.1
+package:::2016:1817.1:::php53-pear:::5.3.17-59.1
+package:::2016:1817.1:::php53-pgsql:::5.3.17-59.1
+package:::2016:1817.1:::php53-pspell:::5.3.17-59.1
+package:::2016:1817.1:::php53-shmop:::5.3.17-59.1
+package:::2016:1817.1:::php53-snmp:::5.3.17-59.1
+package:::2016:1817.1:::php53-soap:::5.3.17-59.1
+package:::2016:1817.1:::php53-suhosin:::5.3.17-59.1
+package:::2016:1817.1:::php53-sysvmsg:::5.3.17-59.1
+package:::2016:1817.1:::php53-sysvsem:::5.3.17-59.1
+package:::2016:1817.1:::php53-sysvshm:::5.3.17-59.1
+package:::2016:1817.1:::php53-tokenizer:::5.3.17-59.1
+package:::2016:1817.1:::php53-wddx:::5.3.17-59.1
+package:::2016:1817.1:::php53-xmlreader:::5.3.17-59.1
+package:::2016:1817.1:::php53-xmlrpc:::5.3.17-59.1
+package:::2016:1817.1:::php53-xmlwriter:::5.3.17-59.1
+package:::2016:1817.1:::php53-xsl:::5.3.17-59.1
+package:::2016:1817.1:::php53-zip:::5.3.17-59.1
+package:::2016:1817.1:::php53-zlib:::5.3.17-59.1
+package:::2016:1817.1:::apache2-mod_php53:::5.3.17-59.1
+advisory:::2016:1806.1:::1461592800:::L:::SUSE-SU-2016:1139-1: Security update for giflib:::
+package:::2016:1806.1:::giflib-progs:::4.1.6-21.1
+package:::2016:1806.1:::giflib-32bit:::4.1.6-21.1
+package:::2016:1806.1:::giflib:::4.1.6-21.1
+advisory:::2016:1712.1:::1460988540:::L:::SUSE-SU-2016:1088-1: Security update for krb5:::
+package:::2016:1712.1:::krb5-apps-clients:::1.6.3-133.49.109.1
+package:::2016:1712.1:::krb5-apps-servers:::1.6.3-133.49.109.1
+package:::2016:1712.1:::krb5-client:::1.6.3-133.49.109.1
+package:::2016:1712.1:::krb5-server:::1.6.3-133.49.109.1
+package:::2016:1712.1:::krb5-32bit:::1.6.3-133.49.109.1
+package:::2016:1712.1:::krb5:::1.6.3-133.49.109.1
+advisory:::2016:1642.1:::1460556240:::M:::SUSE-SU-2016:1023-1: Security update for samba:::
+package:::2016:1642.1:::libldb1:::3.6.3-76.1
+package:::2016:1642.1:::libsmbclient0:::3.6.3-76.1
+package:::2016:1642.1:::libtalloc2:::3.6.3-76.1
+package:::2016:1642.1:::libtdb1:::3.6.3-76.1
+package:::2016:1642.1:::libtevent0:::3.6.3-76.1
+package:::2016:1642.1:::libwbclient0:::3.6.3-76.1
+package:::2016:1642.1:::samba:::3.6.3-76.1
+package:::2016:1642.1:::samba-client:::3.6.3-76.1
+package:::2016:1642.1:::samba-krb-printing:::3.6.3-76.1
+package:::2016:1642.1:::samba-winbind:::3.6.3-76.1
+package:::2016:1642.1:::libsmbclient0-32bit:::3.6.3-76.1
+package:::2016:1642.1:::libtalloc2-32bit:::3.6.3-76.1
+package:::2016:1642.1:::libtdb1-32bit:::3.6.3-76.1
+package:::2016:1642.1:::libtevent0-32bit:::3.6.3-76.1
+package:::2016:1642.1:::libwbclient0-32bit:::3.6.3-76.1
+package:::2016:1642.1:::samba-32bit:::3.6.3-76.1
+package:::2016:1642.1:::samba-client-32bit:::3.6.3-76.1
+package:::2016:1642.1:::samba-winbind-32bit:::3.6.3-76.1
+package:::2016:1642.1:::samba-doc:::3.6.3-76.2
+package:::2016:1642.1:::ldapsmb:::1.34b-76.1
+advisory:::2016:1537.1:::1459953960:::M:::SUSE-SU-2016:0955-1: Security update for xen:::
+package:::2016:1537.1:::xen-libs:::4.4.4_02-32.1
+package:::2016:1537.1:::xen-tools-domU:::4.4.4_02-32.1
+package:::2016:1537.1:::xen:::4.4.4_02-32.1
+package:::2016:1537.1:::xen-doc-html:::4.4.4_02-32.1
+package:::2016:1537.1:::xen-libs-32bit:::4.4.4_02-32.1
+package:::2016:1537.1:::xen-tools:::4.4.4_02-32.1
+package:::2016:1537.1:::xen-kmp-default:::4.4.4_02_3.0.101_68-32.1
+advisory:::2016:1529.1:::1459954020:::L:::SUSE-SU-2016:0954-1: Security update for quagga:::
+package:::2016:1529.1:::quagga:::0.99.15-0.21.1
+advisory:::2016:1496.1:::1459778460:::M:::SUSE-SU-2016:0946-1: Security update for quagga:::
+package:::2016:1496.1:::quagga:::0.99.15-0.16.1
+advisory:::2016:1490.1:::1459519260:::L:::SUSE-SU-2016:0931-1: Security update for libvirt:::
+package:::2016:1490.1:::libvirt-client:::1.2.5-12.3
+package:::2016:1490.1:::libvirt-doc:::1.2.5-12.3
+package:::2016:1490.1:::libvirt-lock-sanlock:::1.2.5-12.3
+package:::2016:1490.1:::libvirt-client-32bit:::1.2.5-12.3
+package:::2016:1490.1:::libvirt:::1.2.5-12.3
+advisory:::2016:1468.1:::1459432860:::L:::SUSE-SU-2016:0911-1: Security update for the Linux Kernel:::
+package:::2016:1468.1:::kernel-default-base:::3.0.101-71.1
+package:::2016:1468.1:::kernel-default-devel:::3.0.101-71.1
+package:::2016:1468.1:::kernel-source:::3.0.101-71.1
+package:::2016:1468.1:::kernel-syms:::3.0.101-71.1
+package:::2016:1468.1:::kernel-trace:::3.0.101-71.1
+package:::2016:1468.1:::kernel-trace-base:::3.0.101-71.1
+package:::2016:1468.1:::kernel-trace-devel:::3.0.101-71.1
+package:::2016:1468.1:::kernel-ec2:::3.0.101-71.1
+package:::2016:1468.1:::kernel-ec2-base:::3.0.101-71.1
+package:::2016:1468.1:::kernel-ec2-devel:::3.0.101-71.1
+package:::2016:1468.1:::kernel-xen:::3.0.101-71.1
+package:::2016:1468.1:::kernel-xen-base:::3.0.101-71.1
+package:::2016:1468.1:::kernel-xen-devel:::3.0.101-71.1
+package:::2016:1468.1:::kernel-default:::3.0.101-71.1
+advisory:::2016:1466.1:::1459432800:::L:::SUSE-SU-2016:0908-2: Security update for gcc5:::
+package:::2016:1466.1:::libgfortran3:::5.3.1+r233831-10.1
+package:::2016:1466.1:::libgomp1:::5.3.1+r233831-10.1
+package:::2016:1466.1:::libstdc++6:::5.3.1+r233831-10.1
+package:::2016:1466.1:::libstdc++6-locale:::5.3.1+r233831-10.1
+package:::2016:1466.1:::libatomic1-32bit:::5.3.1+r233831-10.1
+package:::2016:1466.1:::libatomic1:::5.3.1+r233831-10.1
+package:::2016:1466.1:::libffi4-32bit:::5.3.1+r233831-10.1
+package:::2016:1466.1:::libffi4:::5.3.1+r233831-10.1
+package:::2016:1466.1:::libgcc_s1-32bit:::5.3.1+r233831-10.1
+package:::2016:1466.1:::libgfortran3-32bit:::5.3.1+r233831-10.1
+package:::2016:1466.1:::libgomp1-32bit:::5.3.1+r233831-10.1
+package:::2016:1466.1:::libstdc++6-32bit:::5.3.1+r233831-10.1
+package:::2016:1466.1:::libquadmath0:::5.3.1+r233831-10.1
+package:::2016:1466.1:::libquadmath0-32bit:::5.3.1+r233831-10.1
+package:::2016:1466.1:::libgcc_s1:::5.3.1+r233831-10.1
+advisory:::2016:1389.1:::1458828300:::L:::SUSE-SU-2016:0872-1: Security update for fetchmail:::
+package:::2016:1389.1:::fetchmailconf:::6.3.8.90-13.20.21.1
+package:::2016:1389.1:::fetchmail:::6.3.8.90-13.20.21.1
+advisory:::2016:1338.1:::1458655560:::M:::SUSE-SU-2016:0839-1: Security update for tomcat6:::
+package:::2016:1338.1:::tomcat6-admin-webapps:::6.0.45-0.50.1
+package:::2016:1338.1:::tomcat6-docs-webapp:::6.0.45-0.50.1
+package:::2016:1338.1:::tomcat6-javadoc:::6.0.45-0.50.1
+package:::2016:1338.1:::tomcat6-jsp-2_1-api:::6.0.45-0.50.1
+package:::2016:1338.1:::tomcat6-lib:::6.0.45-0.50.1
+package:::2016:1338.1:::tomcat6-servlet-2_5-api:::6.0.45-0.50.1
+package:::2016:1338.1:::tomcat6-webapps:::6.0.45-0.50.1
+package:::2016:1338.1:::tomcat6:::6.0.45-0.50.1
+advisory:::2016:1337.1:::1458655560:::L:::SUSE-SU-2016:0837-1: Security update for samba:::
+package:::2016:1337.1:::libldb1:::3.6.3-67.2
+package:::2016:1337.1:::libsmbclient0:::3.6.3-67.2
+package:::2016:1337.1:::libtalloc2:::3.6.3-67.2
+package:::2016:1337.1:::libtdb1:::3.6.3-67.2
+package:::2016:1337.1:::libtevent0:::3.6.3-67.2
+package:::2016:1337.1:::libwbclient0:::3.6.3-67.2
+package:::2016:1337.1:::samba:::3.6.3-67.2
+package:::2016:1337.1:::samba-client:::3.6.3-67.2
+package:::2016:1337.1:::samba-krb-printing:::3.6.3-67.2
+package:::2016:1337.1:::samba-winbind:::3.6.3-67.2
+package:::2016:1337.1:::libsmbclient0-32bit:::3.6.3-67.2
+package:::2016:1337.1:::libtalloc2-32bit:::3.6.3-67.2
+package:::2016:1337.1:::libtdb1-32bit:::3.6.3-67.2
+package:::2016:1337.1:::libtevent0-32bit:::3.6.3-67.2
+package:::2016:1337.1:::libwbclient0-32bit:::3.6.3-67.2
+package:::2016:1337.1:::samba-32bit:::3.6.3-67.2
+package:::2016:1337.1:::samba-client-32bit:::3.6.3-67.2
+package:::2016:1337.1:::samba-winbind-32bit:::3.6.3-67.2
+package:::2016:1337.1:::samba-doc:::3.6.3-67.2
+package:::2016:1337.1:::ldapsmb:::1.34b-67.2
+advisory:::2016:1308.1:::1458569820:::L:::SUSE-SU-2016:0825-1: Security update for bind:::
+package:::2016:1308.1:::bind-chrootenv:::9.9.6P1-0.25.1
+package:::2016:1308.1:::bind-doc:::9.9.6P1-0.25.1
+package:::2016:1308.1:::bind-libs:::9.9.6P1-0.25.1
+package:::2016:1308.1:::bind-utils:::9.9.6P1-0.25.1
+package:::2016:1308.1:::bind-libs-32bit:::9.9.6P1-0.25.1
+package:::2016:1308.1:::bind:::9.9.6P1-0.25.1
+advisory:::2016:1219.1:::1458136980:::M:::SUSE-SU-2016:0777-1: Security update for MozillaFirefox, mozilla-nspr, mozilla-nss:::
+package:::2016:1219.1:::MozillaFirefox-translations:::38.7.0esr-37.3
+package:::2016:1219.1:::libfreebl3:::3.20.2-28.1
+package:::2016:1219.1:::libsoftokn3:::3.20.2-28.1
+package:::2016:1219.1:::mozilla-nspr:::4.12-24.1
+package:::2016:1219.1:::mozilla-nss:::3.20.2-28.1
+package:::2016:1219.1:::mozilla-nss-tools:::3.20.2-28.1
+package:::2016:1219.1:::libfreebl3-32bit:::3.20.2-28.1
+package:::2016:1219.1:::libsoftokn3-32bit:::3.20.2-28.1
+package:::2016:1219.1:::mozilla-nspr-32bit:::4.12-24.1
+package:::2016:1219.1:::mozilla-nss-32bit:::3.20.2-28.1
+package:::2016:1219.1:::MozillaFirefox:::38.7.0esr-37.3
+advisory:::2016:1142.1:::1457709180:::M:::SUSE-SU-2016:0723-1: Security update for libssh2_org:::
+package:::2016:1142.1:::libssh2-1:::1.2.9-4.2.6.1
+advisory:::2016:1084.1:::1457622900:::M:::SUSE-SU-2016:0706-1: Security update for libotr:::
+package:::2016:1084.1:::libotr2:::3.2.0-10.5.1
+advisory:::2016:1013.1:::1457449320:::L:::SUSE-SU-2016:0677-1: Security update for postgresql94:::
+package:::2016:1013.1:::libpq5:::9.4.6-0.14.3
+package:::2016:1013.1:::postgresql94:::9.4.6-0.14.3
+package:::2016:1013.1:::postgresql94-contrib:::9.4.6-0.14.3
+package:::2016:1013.1:::postgresql94-docs:::9.4.6-0.14.3
+package:::2016:1013.1:::postgresql94-server:::9.4.6-0.14.3
+package:::2016:1013.1:::libpq5-32bit:::9.4.6-0.14.3
+package:::2016:1013.1:::libecpg6:::9.4.6-0.14.3
+advisory:::2016:0913.1:::1456931400:::M:::SUSE-SU-2016:0624-1: Security update for openssl:::
+package:::2016:0913.1:::libopenssl0_9_8-hmac:::0.9.8j-0.89.1
+package:::2016:0913.1:::openssl:::0.9.8j-0.89.1
+package:::2016:0913.1:::openssl-doc:::0.9.8j-0.89.1
+package:::2016:0913.1:::libopenssl0_9_8-32bit:::0.9.8j-0.89.1
+package:::2016:0913.1:::libopenssl0_9_8-hmac-32bit:::0.9.8j-0.89.1
+package:::2016:0913.1:::libopenssl0_9_8:::0.9.8j-0.89.1
+advisory:::2016:0820.1:::1456412640:::M:::SUSE-SU-2016:0564-1: Security update for MozillaFirefox:::
+package:::2016:0820.1:::MozillaFirefox-translations:::38.6.1esr-34.1
+package:::2016:0820.1:::MozillaFirefox:::38.6.1esr-34.1
+advisory:::2016:0690.1:::1455722460:::H:::SUSE-SU-2016:0472-1: Security update for glibc:::
+package:::2016:0690.1:::glibc-devel:::2.11.3-17.95.2
+package:::2016:0690.1:::glibc-html:::2.11.3-17.95.2
+package:::2016:0690.1:::glibc-i18ndata:::2.11.3-17.95.2
+package:::2016:0690.1:::glibc-info:::2.11.3-17.95.2
+package:::2016:0690.1:::glibc-locale:::2.11.3-17.95.2
+package:::2016:0690.1:::glibc-profile:::2.11.3-17.95.2
+package:::2016:0690.1:::nscd:::2.11.3-17.95.2
+package:::2016:0690.1:::glibc-32bit:::2.11.3-17.95.2
+package:::2016:0690.1:::glibc-devel-32bit:::2.11.3-17.95.2
+package:::2016:0690.1:::glibc-locale-32bit:::2.11.3-17.95.2
+package:::2016:0690.1:::glibc-profile-32bit:::2.11.3-17.95.2
+package:::2016:0690.1:::glibc:::2.11.3-17.95.2
+advisory:::2016:0692.1:::1455722460:::L:::SUSE-SU-2016:0481-1: Security update for dhcp:::
+package:::2016:0692.1:::dhcp-client:::4.2.4.P2-0.24.1
+package:::2016:0692.1:::dhcp-relay:::4.2.4.P2-0.24.1
+package:::2016:0692.1:::dhcp-server:::4.2.4.P2-0.24.1
+package:::2016:0692.1:::dhcp:::4.2.4.P2-0.24.1
+advisory:::2016:0693.1:::1455722460:::L:::SUSE-SU-2016:0482-1: Security update for postgresql94:::
+package:::2016:0693.1:::libpq5:::9.4.5-0.8.3
+package:::2016:0693.1:::postgresql94:::9.4.5-0.8.3
+package:::2016:0693.1:::postgresql94-contrib:::9.4.5-0.8.3
+package:::2016:0693.1:::postgresql94-docs:::9.4.5-0.8.3
+package:::2016:0693.1:::postgresql94-server:::9.4.5-0.8.3
+package:::2016:0693.1:::libpq5-32bit:::9.4.5-0.8.3
+package:::2016:0693.1:::libecpg6:::9.4.5-0.8.3
+advisory:::2016:0627.1:::1455202920:::H:::SUSE-SU-2016:0399-1: Security update for java-1_7_1-ibm:::
+package:::2016:0627.1:::java-1_7_1-ibm-jdbc:::1.7.1_sr3.30-9.1
+package:::2016:0627.1:::java-1_7_1-ibm-alsa:::1.7.1_sr3.30-9.1
+package:::2016:0627.1:::java-1_7_1-ibm-plugin:::1.7.1_sr3.30-9.1
+package:::2016:0627.1:::java-1_7_1-ibm:::1.7.1_sr3.30-9.1
+advisory:::2016:0531.1:::1454686680:::M:::SUSE-SU-2016:0334-1: Security update for MozillaFirefox, MozillaFirefox-branding-SLED, mozilla-nss:::
+package:::2016:0531.1:::MozillaFirefox-branding-SLED:::38-18.24
+package:::2016:0531.1:::MozillaFirefox-translations:::38.6.0esr-31.3
+package:::2016:0531.1:::libfreebl3:::3.20.2-25.2
+package:::2016:0531.1:::libsoftokn3:::3.20.2-25.2
+package:::2016:0531.1:::mozilla-nss:::3.20.2-25.2
+package:::2016:0531.1:::mozilla-nss-tools:::3.20.2-25.2
+package:::2016:0531.1:::libfreebl3-32bit:::3.20.2-25.2
+package:::2016:0531.1:::libsoftokn3-32bit:::3.20.2-25.2
+package:::2016:0531.1:::mozilla-nss-32bit:::3.20.2-25.2
+package:::2016:0531.1:::MozillaFirefox:::38.6.0esr-31.3
+advisory:::2016:0312.1:::1453475820:::L:::SUSE-SU-2016:0200-1: Security update for bind:::
+package:::2016:0312.1:::bind-chrootenv:::9.9.6P1-0.22.1
+package:::2016:0312.1:::bind-doc:::9.9.6P1-0.22.1
+package:::2016:0312.1:::bind-libs:::9.9.6P1-0.22.1
+package:::2016:0312.1:::bind-utils:::9.9.6P1-0.22.1
+package:::2016:0312.1:::bind-libs-32bit:::9.9.6P1-0.22.1
+package:::2016:0312.1:::bind:::9.9.6P1-0.22.1
+advisory:::2016:0201.1:::1453215600:::M:::SUSE-SU-2016:0164-1: Security update for samba:::
+package:::2016:0201.1:::libldb1:::3.6.3-64.1
+package:::2016:0201.1:::libsmbclient0:::3.6.3-64.1
+package:::2016:0201.1:::libtalloc2:::3.6.3-64.1
+package:::2016:0201.1:::libtdb1:::3.6.3-64.1
+package:::2016:0201.1:::libtevent0:::3.6.3-64.1
+package:::2016:0201.1:::libwbclient0:::3.6.3-64.1
+package:::2016:0201.1:::samba:::3.6.3-64.1
+package:::2016:0201.1:::samba-client:::3.6.3-64.1
+package:::2016:0201.1:::samba-krb-printing:::3.6.3-64.1
+package:::2016:0201.1:::samba-winbind:::3.6.3-64.1
+package:::2016:0201.1:::libsmbclient0-32bit:::3.6.3-64.1
+package:::2016:0201.1:::libtalloc2-32bit:::3.6.3-64.1
+package:::2016:0201.1:::libtdb1-32bit:::3.6.3-64.1
+package:::2016:0201.1:::libtevent0-32bit:::3.6.3-64.1
+package:::2016:0201.1:::libwbclient0-32bit:::3.6.3-64.1
+package:::2016:0201.1:::samba-32bit:::3.6.3-64.1
+package:::2016:0201.1:::samba-client-32bit:::3.6.3-64.1
+package:::2016:0201.1:::samba-winbind-32bit:::3.6.3-64.1
+package:::2016:0201.1:::samba-doc:::3.6.3-64.1
+package:::2016:0201.1:::ldapsmb:::1.34b-64.1
+advisory:::2016:0159.1:::1452800100:::H:::SUSE-SU-2016:0120-1: Security update for openssh:::
+package:::2016:0159.1:::openssh-askpass-gnome:::6.6p1-16.4
+package:::2016:0159.1:::openssh-fips:::6.6p1-16.1
+package:::2016:0159.1:::openssh-helpers:::6.6p1-16.1
+package:::2016:0159.1:::openssh:::6.6p1-16.1
+advisory:::2016:0008.1:::1451919660:::M:::SUSE-SU-2016:0010-1: Security update for kvm:::
+package:::2016:0008.1:::kvm:::1.4.2-35.1
+advisory:::2015:4572.1:::1451401620:::L:::SUSE-SU-2015:2385-1: Security update for grub2:::
+package:::2015:4572.1:::grub2-x86_64-xen:::2.00-0.54.2
+package:::2015:4572.1:::grub2-x86_64-efi:::2.00-0.54.2
+advisory:::2015:4563.1:::1451314920:::L:::SUSE-SU-2015:1898-1: Security update for krb5:::
+package:::2015:4563.1:::krb5-apps-clients:::1.6.3-133.49.97.1
+package:::2015:4563.1:::krb5-apps-servers:::1.6.3-133.49.97.1
+package:::2015:4563.1:::krb5-client:::1.6.3-133.49.97.1
+package:::2015:4563.1:::krb5-plugin-kdb-ldap:::1.6.3-133.49.97.3
+package:::2015:4563.1:::krb5-plugin-preauth-pkinit:::1.6.3-133.49.97.3
+package:::2015:4563.1:::krb5-server:::1.6.3-133.49.97.1
+package:::2015:4563.1:::krb5-32bit:::1.6.3-133.49.97.1
+package:::2015:4563.1:::krb5-doc:::1.6.3-133.49.97.3
+package:::2015:4563.1:::krb5:::1.6.3-133.49.97.1
+advisory:::2015:4534.1:::1450882860:::L:::SUSE-SU-2015:2340-1: Security update for bind:::
+package:::2015:4534.1:::bind-chrootenv:::9.9.6P1-0.19.1
+package:::2015:4534.1:::bind-doc:::9.9.6P1-0.19.1
+package:::2015:4534.1:::bind-libs:::9.9.6P1-0.19.1
+package:::2015:4534.1:::bind-utils:::9.9.6P1-0.19.1
+package:::2015:4534.1:::bind-libs-32bit:::9.9.6P1-0.19.1
+package:::2015:4534.1:::bind:::9.9.6P1-0.19.1
+advisory:::2015:4533.1:::1450882800:::L:::SUSE-SU-2015:2339-1: Security update for the Linux Kernel:::
+package:::2015:4533.1:::kernel-default-base:::3.0.101-68.1
+package:::2015:4533.1:::kernel-default-devel:::3.0.101-68.1
+package:::2015:4533.1:::kernel-source:::3.0.101-68.1
+package:::2015:4533.1:::kernel-syms:::3.0.101-68.1
+package:::2015:4533.1:::kernel-trace:::3.0.101-68.1
+package:::2015:4533.1:::kernel-trace-base:::3.0.101-68.1
+package:::2015:4533.1:::kernel-trace-devel:::3.0.101-68.1
+package:::2015:4533.1:::kernel-ec2:::3.0.101-68.1
+package:::2015:4533.1:::kernel-ec2-base:::3.0.101-68.1
+package:::2015:4533.1:::kernel-ec2-devel:::3.0.101-68.1
+package:::2015:4533.1:::kernel-xen:::3.0.101-68.1
+package:::2015:4533.1:::kernel-xen-base:::3.0.101-68.1
+package:::2015:4533.1:::kernel-xen-devel:::3.0.101-68.1
+package:::2015:4533.1:::kernel-default:::3.0.101-68.1
+advisory:::2015:4514.1:::1450802100:::M:::SUSE-SU-2015:2334-1: Security update for MozillaFirefox:::
+package:::2015:4514.1:::MozillaFirefox-translations:::38.5.0esr-28.2
+package:::2015:4514.1:::MozillaFirefox:::38.5.0esr-28.2
+advisory:::2015:4230.1:::1449241260:::H:::SUSE-SU-2015:2182-1: Security update for java-1_7_1-ibm:::
+package:::2015:4230.1:::java-1_7_1-ibm-jdbc:::1.7.1_sr3.20-6.1
+package:::2015:4230.1:::java-1_7_1-ibm-alsa:::1.7.1_sr3.20-6.1
+package:::2015:4230.1:::java-1_7_1-ibm-plugin:::1.7.1_sr3.20-6.1
+package:::2015:4230.1:::java-1_7_1-ibm:::1.7.1_sr3.20-6.1
+advisory:::2015:4223.1:::1449156720:::L:::SUSE-SU-2015:2174-1: Security update for dhcpcd:::
+package:::2015:4223.1:::dhcpcd:::3.2.3-44.32.2
+advisory:::2015:4017.1:::1447945320:::L:::SUSE-SU-2015:1678-1: Security update for kernel-source:::
+package:::2015:4017.1:::kernel-default-base:::3.0.101-65.1
+package:::2015:4017.1:::kernel-default-devel:::3.0.101-65.1
+package:::2015:4017.1:::kernel-source:::3.0.101-65.1
+package:::2015:4017.1:::kernel-syms:::3.0.101-65.1
+package:::2015:4017.1:::kernel-trace:::3.0.101-65.1
+package:::2015:4017.1:::kernel-trace-base:::3.0.101-65.1
+package:::2015:4017.1:::kernel-trace-devel:::3.0.101-65.1
+package:::2015:4017.1:::kernel-ec2:::3.0.101-65.1
+package:::2015:4017.1:::kernel-ec2-base:::3.0.101-65.1
+package:::2015:4017.1:::kernel-ec2-devel:::3.0.101-65.1
+package:::2015:4017.1:::kernel-xen:::3.0.101-65.1
+package:::2015:4017.1:::kernel-xen-base:::3.0.101-65.1
+package:::2015:4017.1:::kernel-xen-devel:::3.0.101-65.1
+package:::2015:4017.1:::kernel-default:::3.0.101-65.1
+advisory:::2015:3985.1:::1447427040:::M:::SUSE-SU-2015:1981-1: Security update for MozillaFirefox, mozilla-nspr, mozilla-nss:::
+package:::2015:3985.1:::MozillaFirefox-branding-SLED:::38-15.31
+package:::2015:3985.1:::MozillaFirefox-translations:::38.4.0esr-25.6
+package:::2015:3985.1:::libfreebl3:::3.19.2.1-19.3
+package:::2015:3985.1:::libsoftokn3:::3.19.2.1-19.3
+package:::2015:3985.1:::mozilla-nspr:::4.10.10-16.1
+package:::2015:3985.1:::mozilla-nss:::3.19.2.1-19.3
+package:::2015:3985.1:::mozilla-nss-tools:::3.19.2.1-19.3
+package:::2015:3985.1:::libfreebl3-32bit:::3.19.2.1-19.3
+package:::2015:3985.1:::libsoftokn3-32bit:::3.19.2.1-19.3
+package:::2015:3985.1:::mozilla-nspr-32bit:::4.10.10-16.1
+package:::2015:3985.1:::mozilla-nss-32bit:::3.19.2.1-19.3
+package:::2015:3985.1:::MozillaFirefox:::38.4.0esr-25.6
+advisory:::2015:3826.1:::1446563100:::L:::SUSE-SU-2015:1894-1: Security update for xen:::
+package:::2015:3826.1:::xen-libs:::4.4.3_02-26.2
+package:::2015:3826.1:::xen-tools-domU:::4.4.3_02-26.2
+package:::2015:3826.1:::xen:::4.4.3_02-26.2
+package:::2015:3826.1:::xen-doc-html:::4.4.3_02-26.2
+package:::2015:3826.1:::xen-libs-32bit:::4.4.3_02-26.2
+package:::2015:3826.1:::xen-tools:::4.4.3_02-26.2
+package:::2015:3826.1:::xen-kmp-default:::4.4.3_02_3.0.101_65-26.2
+advisory:::2015:3725.1:::1445954820:::M:::SUSE-SU-2015:1818-1: Security update for php53:::
+package:::2015:3725.1:::php53:::5.3.17-48.1
+package:::2015:3725.1:::php53-bcmath:::5.3.17-48.1
+package:::2015:3725.1:::php53-bz2:::5.3.17-48.1
+package:::2015:3725.1:::php53-calendar:::5.3.17-48.1
+package:::2015:3725.1:::php53-ctype:::5.3.17-48.1
+package:::2015:3725.1:::php53-curl:::5.3.17-48.1
+package:::2015:3725.1:::php53-dba:::5.3.17-48.1
+package:::2015:3725.1:::php53-dom:::5.3.17-48.1
+package:::2015:3725.1:::php53-exif:::5.3.17-48.1
+package:::2015:3725.1:::php53-fastcgi:::5.3.17-48.1
+package:::2015:3725.1:::php53-fileinfo:::5.3.17-48.1
+package:::2015:3725.1:::php53-ftp:::5.3.17-48.1
+package:::2015:3725.1:::php53-gd:::5.3.17-48.1
+package:::2015:3725.1:::php53-gettext:::5.3.17-48.1
+package:::2015:3725.1:::php53-gmp:::5.3.17-48.1
+package:::2015:3725.1:::php53-iconv:::5.3.17-48.1
+package:::2015:3725.1:::php53-intl:::5.3.17-48.1
+package:::2015:3725.1:::php53-json:::5.3.17-48.1
+package:::2015:3725.1:::php53-ldap:::5.3.17-48.1
+package:::2015:3725.1:::php53-mbstring:::5.3.17-48.1
+package:::2015:3725.1:::php53-mcrypt:::5.3.17-48.1
+package:::2015:3725.1:::php53-mysql:::5.3.17-48.1
+package:::2015:3725.1:::php53-odbc:::5.3.17-48.1
+package:::2015:3725.1:::php53-openssl:::5.3.17-48.1
+package:::2015:3725.1:::php53-pcntl:::5.3.17-48.1
+package:::2015:3725.1:::php53-pdo:::5.3.17-48.1
+package:::2015:3725.1:::php53-pear:::5.3.17-48.1
+package:::2015:3725.1:::php53-pgsql:::5.3.17-48.1
+package:::2015:3725.1:::php53-pspell:::5.3.17-48.1
+package:::2015:3725.1:::php53-shmop:::5.3.17-48.1
+package:::2015:3725.1:::php53-snmp:::5.3.17-48.1
+package:::2015:3725.1:::php53-soap:::5.3.17-48.1
+package:::2015:3725.1:::php53-suhosin:::5.3.17-48.1
+package:::2015:3725.1:::php53-sysvmsg:::5.3.17-48.1
+package:::2015:3725.1:::php53-sysvsem:::5.3.17-48.1
+package:::2015:3725.1:::php53-sysvshm:::5.3.17-48.1
+package:::2015:3725.1:::php53-tokenizer:::5.3.17-48.1
+package:::2015:3725.1:::php53-wddx:::5.3.17-48.1
+package:::2015:3725.1:::php53-xmlreader:::5.3.17-48.1
+package:::2015:3725.1:::php53-xmlrpc:::5.3.17-48.1
+package:::2015:3725.1:::php53-xmlwriter:::5.3.17-48.1
+package:::2015:3725.1:::php53-xsl:::5.3.17-48.1
+package:::2015:3725.1:::php53-zip:::5.3.17-48.1
+package:::2015:3725.1:::php53-zlib:::5.3.17-48.1
+package:::2015:3725.1:::apache2-mod_php53:::5.3.17-48.1
+advisory:::2015:3632.1:::1445350200:::L:::SUSE-SU-2015:1785-1: Security update for librsvg:::
+package:::2015:3632.1:::rsvg-view:::2.26.0-2.5.1
+package:::2015:3632.1:::librsvg-32bit:::2.26.0-2.5.1
+package:::2015:3632.1:::librsvg:::2.26.0-2.5.1
+advisory:::2015:3523.1:::1444400040:::M:::SUSE-SU-2015:1703-1: Security update for MozillaFirefox:::
+package:::2015:3523.1:::MozillaFirefox-translations:::38.3.0esr-22.1
+package:::2015:3523.1:::MozillaFirefox:::38.3.0esr-22.1
+advisory:::2015:3259.1:::1441899180:::M:::SUSE-SU-2015:1528-1: Security update for MozillaFirefox, mozilla-nss:::
+package:::2015:3259.1:::MozillaFirefox-branding-SLED:::31.0-0.12.51
+package:::2015:3259.1:::MozillaFirefox-translations:::38.2.1esr-19.3
+package:::2015:3259.1:::libfreebl3:::3.19.2.0-0.16.1
+package:::2015:3259.1:::libsoftokn3:::3.19.2.0-0.16.1
+package:::2015:3259.1:::mozilla-nss:::3.19.2.0-0.16.1
+package:::2015:3259.1:::mozilla-nss-tools:::3.19.2.0-0.16.1
+package:::2015:3259.1:::libfreebl3-32bit:::3.19.2.0-0.16.1
+package:::2015:3259.1:::libsoftokn3-32bit:::3.19.2.0-0.16.1
+package:::2015:3259.1:::mozilla-nss-32bit:::3.19.2.0-0.16.1
+package:::2015:3259.1:::MozillaFirefox:::38.2.1esr-19.3
+advisory:::2015:3157.1:::1441292340:::L:::SUSE-SU-2015:1480-1: Security update for bind:::
+package:::2015:3157.1:::bind-chrootenv:::9.9.6P1-0.15.1
+package:::2015:3157.1:::bind-doc:::9.9.6P1-0.15.1
+package:::2015:3157.1:::bind-libs:::9.9.6P1-0.15.1
+package:::2015:3157.1:::bind-utils:::9.9.6P1-0.15.1
+package:::2015:3157.1:::bind-libs-32bit:::9.9.6P1-0.15.1
+package:::2015:3157.1:::bind:::9.9.6P1-0.15.1
+advisory:::2015:3103.1:::1441030020:::M:::SUSE-SU-2015:1455-1: Security update for kvm:::
+package:::2015:3103.1:::kvm:::1.4.2-32.1
+advisory:::2015:3003.1:::1440424980:::M:::SUSE-SU-2015:1424-1: Security update for glibc:::
+package:::2015:3003.1:::glibc-devel:::2.11.3-17.87.3
+package:::2015:3003.1:::glibc-html:::2.11.3-17.87.3
+package:::2015:3003.1:::glibc-i18ndata:::2.11.3-17.87.3
+package:::2015:3003.1:::glibc-info:::2.11.3-17.87.3
+package:::2015:3003.1:::glibc-locale:::2.11.3-17.87.3
+package:::2015:3003.1:::glibc-profile:::2.11.3-17.87.3
+package:::2015:3003.1:::nscd:::2.11.3-17.87.3
+package:::2015:3003.1:::glibc-32bit:::2.11.3-17.87.3
+package:::2015:3003.1:::glibc-devel-32bit:::2.11.3-17.87.3
+package:::2015:3003.1:::glibc-locale-32bit:::2.11.3-17.87.3
+package:::2015:3003.1:::glibc-profile-32bit:::2.11.3-17.87.3
+package:::2015:3003.1:::glibc:::2.11.3-17.87.3
+advisory:::2015:2887.1:::1439561400:::M:::SUSE-SU-2015:1380-1: Security update for MozillaFirefox:::
+package:::2015:2887.1:::MozillaFirefox-translations:::31.8.0esr-0.13.2
+package:::2015:2887.1:::MozillaFirefox:::31.8.0esr-0.13.2
+advisory:::2015:2635.2:::1438873560:::M:::SUSE-SU-2015:1304-1: Security update for bind:::
+package:::2015:2635.2:::bind-chrootenv:::9.9.6P1-0.12.1
+package:::2015:2635.2:::bind-doc:::9.9.6P1-0.12.1
+package:::2015:2635.2:::bind-libs:::9.9.6P1-0.12.1
+package:::2015:2635.2:::bind-utils:::9.9.6P1-0.12.1
+package:::2015:2635.2:::bind-libs-32bit:::9.9.6P1-0.12.1
+package:::2015:2635.2:::bind:::9.9.6P1-0.12.1
+advisory:::2015:2731.1:::1438629334:::M:::SUSE-SU-2015:1329-1: important: Security update for java-1_7_1-ibm:::
+package:::2015:2731.1:::java-1_7_1-ibm:::1.7.1_sr3.10-3.1
+package:::2015:2731.1:::java-1_7_1-ibm-jdbc:::1.7.1_sr3.10-3.1
+package:::2015:2731.1:::java-1_7_1-ibm-alsa:::1.7.1_sr3.10-3.1
+package:::2015:2731.1:::java-1_7_1-ibm-plugin:::1.7.1_sr3.10-3.1
+advisory:::2015:2626.1:::1438109758:::M:::SUSE-SU-2015:1299-1: Security update for xen:::
+package:::2015:2626.1:::xen-kmp-default:::4.4.2_10_3.0.101_63-5.1
+package:::2015:2626.1:::xen-libs:::4.4.2_10-5.1
+package:::2015:2626.1:::xen-tools-domU:::4.4.2_10-5.1
+package:::2015:2626.1:::xen:::4.4.2_10-5.1
+package:::2015:2626.1:::xen-doc-html:::4.4.2_10-5.1
+package:::2015:2626.1:::xen-libs-32bit:::4.4.2_10-5.1
+package:::2015:2626.1:::xen-tools:::4.4.2_10-5.1
+advisory:::2015:2517.1:::1437490560:::M:::SUSE-SU-2015:1268-2: Security update for MozillaFirefox, mozilla-nspr, mozilla-nss:::
+package:::2015:2517.1:::MozillaFirefox:::31.8.0esr-0.10.1
+package:::2015:2517.1:::MozillaFirefox-translations:::31.8.0esr-0.10.1
+package:::2015:2517.1:::libfreebl3:::3.19.2_CKBI_1.98-0.10.1
+package:::2015:2517.1:::libsoftokn3:::3.19.2_CKBI_1.98-0.10.1
+package:::2015:2517.1:::mozilla-nspr:::4.10.8-0.5.1
+package:::2015:2517.1:::mozilla-nss:::3.19.2_CKBI_1.98-0.10.1
+package:::2015:2517.1:::mozilla-nss-tools:::3.19.2_CKBI_1.98-0.10.1
+package:::2015:2517.1:::libfreebl3-32bit:::3.19.2_CKBI_1.98-0.10.1
+package:::2015:2517.1:::libsoftokn3-32bit:::3.19.2_CKBI_1.98-0.10.1
+package:::2015:2517.1:::mozilla-nspr-32bit:::4.10.8-0.5.1
+package:::2015:2517.1:::mozilla-nss-32bit:::3.19.2_CKBI_1.98-0.10.1
+advisory:::2015:2158.1:::1435245000:::L:::SUSE-SU-2015:1103-1: Security update for e2fsprogs:::
+package:::2015:2158.1:::e2fsprogs:::1.41.9-2.14.2
+package:::2015:2158.1:::libcom_err2:::1.41.9-2.14.2
+package:::2015:2158.1:::libext2fs2:::1.41.9-2.14.2
