@@ -1,5 +1,9 @@
 Hi man, I have writtena very simple script in my folder ( ../Endless/script.sh )
 
+git pull these changes down to your /opt/octo-pancake/  git repo on your laptop, mv the script file to your salloweezy folder, 
+and then edit it as you wish, save it in your folder and then git add, git commit, then git push back to github. That way Ill see the results of
+your changes in your folder. (branches are a better way to do it, but thats later ) 
+
 Go and read what I did and then you can check the results in the text file called ( ../result.txt )
 
 Try and work out how the result of the commands go into the results file. 
