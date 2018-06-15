@@ -11,6 +11,9 @@ line="=============================================================="
 function draw_line_to_result {
 echo -e "\n $line \n" >> results.txt
 }
+FILENAME="$(hostname)_$(date +%F)_$(whoami).txt"
+touch $FILENAME
+exit
 
 
 # code begins here
@@ -57,10 +60,10 @@ echo -ne '[#####################################################################
 
 
   draw_line_to_result
-  tput cup $middle_row ; echo "gathering diskspace details" ; df -h >> results.txt ; draw_line_to_result ;  tput cup $middle_row $middle_col; tput bold ; prog_bar ; echo ;
-  tput cup $middle_row ; echo "gathering user details" ;grep $(whoami) /etc/passwd >> results.txt ; finger $(whoami) >> results.txt ;  draw_line_to_result ;tput cup $middle_row $middle_col;  tput bold ; prog_bar ; echo ; 
-  tput cup $middle_row ; echo "gathering iostat details" ; iostat --human  >> results.txt ; draw_line_to_result ;tput cup $middle_row $middle_col;  tput bold ; prog_bar ; echo ; 
+  tput cup $middle_row ; echo "gathering diskspace details" ; df -h >> $FILENAME ; draw_line_to_result ;  tput cup $middle_row $middle_col; tput bold ; prog_bar ; echo ;
+  tput cup $middle_row ; echo "gathering user details" ;grep $(whoami) /etc/passwd >> $FILENAME ; finger $(whoami) >> $FILENaME ;  draw_line_to_result ;tput cup $middle_row $middle_col;  tput bold ; prog_bar ; echo ; 
+  tput cup $middle_row ; echo "gathering iostat details" ; iostat --human  >> $FILENAME ; draw_line_to_result ;tput cup $middle_row $middle_col;  tput bold ; prog_bar ; echo ; 
 
-cat results.txt
+cat $FILENAME
 
 
