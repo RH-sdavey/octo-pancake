@@ -1,0 +1,41 @@
+
+ ============================================================== 
+
+Filesystem               Size  Used Avail Use% Mounted on
+devtmpfs                 7.6G     0  7.6G   0% /dev
+tmpfs                    7.6G   49M  7.6G   1% /dev/shm
+tmpfs                    7.6G  1.9M  7.6G   1% /run
+tmpfs                    7.6G     0  7.6G   0% /sys/fs/cgroup
+/dev/mapper/fedora-root   49G   24G   23G  51% /
+tmpfs                    7.6G   31M  7.6G   1% /tmp
+/dev/sda1                976M  204M  706M  23% /boot
+/dev/mapper/fedora-home  411G  9.2G  381G   3% /home
+tmpfs                    1.6G   64K  1.6G   1% /run/user/1000
+
+ ============================================================== 
+
+sdavey:x:1000:1000:Sean Davey:/home/sdavey:/bin/bash
+Login: sdavey         			Name: Sean Davey
+Directory: /home/sdavey             	Shell: /bin/bash
+On since Fri Jun 15 11:03 (CEST) on tty1 from :0
+   4 days 7 hours idle
+No mail.
+No Plan.
+
+ ============================================================== 
+
+Linux 4.16.5-300.fc28.x86_64 (localhost.localdomain) 	06/15/2018 	_x86_64_	(8 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          23.9%    2.1%    9.7%    0.0%    0.0%   64.3%
+
+Device             tps    kB_read/s    kB_wrtn/s    kB_read    kB_wrtn
+sda               3.97        20.6k        99.9k       7.3G      35.3G
+dm-0              6.53        20.5k        99.9k       7.3G      35.3G
+dm-1              2.33        12.8k        43.2k       4.5G      15.3G
+dm-2              0.03         0.0k         0.1k       5.2M      36.8M
+dm-3              4.17         7.7k        57.1k       2.7G      20.2G
+
+
+ ============================================================== 
+
