@@ -1,5 +1,8 @@
 #!/bin/bash
 clear
+echo "========= $(date) =========="
+echo "========= user:  $(whoami) ========="
+echo "========= shell: $(echo $SHELL) ========="
 echo "give me directory name"
 read dir_var
 echo "give me a fielname"
