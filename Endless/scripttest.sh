@@ -58,13 +58,13 @@ EOF
 read choice
 case "$choice" in
 
-	1) lscpu;;
-	2) df;;
-	3) whoami;;
-	4) top | head -n 10;;
-	q) echo "Bye"; sleep3; clear;;
+	1) lscpu && sleep 4; clear;;
+	2) df -h; sleep 4; clear;;
+	3) whoami ; sleep 4; clear;;
+	4) top -b -n 1 | head -n 15; sleep 4; clear;;
+	q) echo "Bye"; sleep3; clear; exit;;
 	*) echo "Unknown command, please choose a number 1-4 or q to quit";;
 
 esac
-
+./scripttest.sh
 
