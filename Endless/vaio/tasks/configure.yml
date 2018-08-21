@@ -1,0 +1,11 @@
+---
+- hosts: endless_vaio
+  tasks: 
+  - name: change machine name in bashrc
+    replace: 
+      path: /home/sdavey/.bashrc
+      regexp: 'CHANGEME'
+      replace: 'Endless_VAIO'
+
+  - name: source bashrc
+    script: /home/sdavey/.bashrc

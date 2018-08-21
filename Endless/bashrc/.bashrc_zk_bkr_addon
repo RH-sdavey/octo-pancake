@@ -1,0 +1,35 @@
+# .bashrc beaker addon
+
+# beaker flow aliases, use either of them (same functionality)
+alias bkr_flow='f_bkr_flow'
+alias beaker_flow='f_bkr_flow'
+
+function f_bkr_flow ()
+{
+
+  [[ -d .git ]] && mv .git _git
+    make tag
+    local ecode="$?"
+    local fn=
+    if [ "${ecode}" == "0" ]; then
+      make package
+        ecode="$?"
+        fn=$(/bin/ls -t *.rpm 2>/dev/null | head -1)
+
+        if [ "${ecode}" == "0" -o -z "${fn}" ]; then
+          bkr task-add ${fn}
+  ecode="$?"
+
+    if [ "${ecode}" == "0" ]; then
+      echo "--- [1-3] bkr_flow process passed (${fn} generated and sent out) ---"
+    else
+      echo "--- [3] test submission failed --- (ecode:${ecode}) [Issue 'bkr task-add ${fn}' again]"
+        fi
+        else
+          echo "--- [2] make package failed --- (ecode:${ecode}) [Issue 'make package && bkr task-add <last-generated-test-rpm>' again]"
+            fi
+    else
+      echo "--- [1] make tag failed --- (ecode:${ecode}) [Issue bkr_flow again]"
+        fi
+        [[ -d _git ]] && mv _git .git
+}

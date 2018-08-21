@@ -1,0 +1,30 @@
+---
+- hosts: endless_vaio
+  gather_facts: False
+  tasks:
+   - name: Install my Package
+     apt: name={{ item }} state=present
+     with_items:
+       - ncdu
+       - acl
+       - tree
+       - htop
+       - unzip
+       - openssl
+       - conky-all
+       - xcowsay
+       - zim
+     become: yes
+   - name: clone octo-pancake to /opt
+     git: 
+       repo: 'https://github.com/RH-sdavey/octo-pancake.git'
+       dest: /opt/octo-pancake/
+   - name: copy bashrc files to user folder
+     copy:
+       src: "{{ item }}"
+       dest: /home/sdavey/
+     with_fileglob: "/opt/octo-pancake/Endless/bashrc"
+   
+   - name: copy vimrc files to user folder
+     shell: cp  -r /opt/octo-pancake/Endless/vimrc/.vim* /home/sdavey
+

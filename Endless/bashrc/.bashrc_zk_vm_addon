@@ -1,0 +1,32 @@
+# .bashrc
+
+
+export vm_list=( rhel58i rhel58x rhel62i rhel62x rhel62x2 rhel63i rhel63x fedora )
+
+function vm_update_ssh_config {
+  local current_vm=
+  for current_vm in ${vm_list[@]}; do 
+    echo "${current_vm}"
+    scp .ssh/config ${current_vm}:.ssh/
+  done
+}
+
+function vm_shut_down { #vm-name or all
+  if [[ -z "$1" ]]; then
+    echo "${FUNCNAME[0]}:Error no VM name supplied"
+    return 2
+  fi
+
+  if [[ $1 == all ]]; then
+    set ${vm_list[@]}
+  fi
+
+  local current_vm=
+  for current_vm in $@; do 
+    echo "${current_vm}"
+    ssh root@$current_vm poweroff
+  done
+  return
+
+
+}

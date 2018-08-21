@@ -1,0 +1,258 @@
+# .bashrc PS addon
+
+## INPUT PARAM TABLE
+: ${PS_MACHINE_NAME:=""} # custom machine name, instead of hostname
+: ${PS_DEFAULT_IP:=false} # display probable default IP of the machine
+: ${PS_HOSTNAME:=false} # display hostname anyways (can cause duplicates)
+: ${PS_BASE_COLOR_NAME:="crx_l_green"} # base propmt color
+: ${PS_END_SYMBOL:="$"} # prompt end symbol
+: ${PS_TIMER_TRESHOLD:=30} # minimal amount of seconds to show timer
+: ${PS_TIMER_SEC_TRESHOLD:=300} # minimal amount of seconds to show a minute timer
+: ${PS_TIMER_MIN_TRESHOLD:=3600} # minimal amount of second to show full timer
+
+
+##
+
+## Color table
+crx_none='\[\e[00m\]'
+
+crx_black='\[\e[00;30m\]'
+crx_red='\[\e[00;31m\]'
+crx_green='\[\e[00;32m\]'
+crx_yellow='\[\e[00;33m\]'
+crx_blue='\[\e[00;34m\]'
+crx_purple='\[\e[00;35m\]'
+crx_cyan='\[\e[00;36m\]'
+crx_l_gray='\[\e[00;37m\]'
+
+crx_gray='\[\e[01;30m\]'
+crx_l_red='\[\e[01;31m\]'
+crx_l_green='\[\e[01;32m\]'
+crx_l_yellow='\[\e[01;33m\]'
+crx_l_blue='\[\e[01;34m\]'
+crx_l_purple='\[\e[01;35m\]'
+crx_l_cyan='\[\e[01;36m\]'
+crx_white='\[\e[01;37m\]'
+
+cr_none='\e[00m'
+
+cr_black='\e[00;30m'
+cr_red='\e[00;31m'
+cr_green='\e[00;32m'
+cr_yellow='\e[00;33m'
+cr_blue='\e[00;34m'
+cr_purple='\e[00;35m'
+cr_cyan='\e[00;36m'
+cr_l_gray='\e[00;37m'
+
+cr_gray='\e[01;30m'
+cr_l_red='\e[01;31m'
+cr_l_green='\e[01;32m'
+cr_l_yellow='\e[01;33m'
+cr_l_blue='\e[01;34m'
+cr_l_purple='\e[01;35m'
+cr_l_cyan='\e[01;36m'
+cr_white='\e[01;37m'
+
+
+###############################################################################
+### GIT section
+function get_git_changes {
+  local tmp="$(git status -s 2>/dev/null | grep -v "??")"
+ # local changes=$([[ -n "${tmp}" ]] && echo +)
+  [[ -n "${tmp}" ]] && echo +
+}
+
+function parse_git_state {
+  # check if there is an git repo
+  git rev-parse --git-dir &>/dev/null || return
+
+  # BRANCH NAME
+  local __git_branch__=$(git branch 2>/dev/null | fgrep '*')
+  __git_branch__=${__git_branch__:2} ## star cut
+
+  local __git_status__=";$(git status --porcelain 2>/dev/null | tr '\n' ';')"
+  local __git_workt__=""
+  local __git_stage__=""
+  local int_result=""
+
+  if [[ -n ${__git_status__} ]]; then
+    ## WORKING TREE
+    [[ ${__git_status__} =~ \;.M ]] && __git_workt__+="M"
+    [[ ${__git_status__} =~ \;.A ]] && __git_workt__+="A"
+    [[ ${__git_status__} =~ \;.D ]] && __git_workt__+="D"
+    [[ ${__git_status__} =~ \;.R ]] && __git_workt__+="R"
+    [[ ${__git_status__} =~ \;.C ]] && __git_workt__+="C"
+    [[ ${__git_status__} =~ \;.U ]] && __git_workt__+="U"
+
+    [[ ${__git_status__} =~ \;.\? ]] && __git_workt__+="?"
+    [[ ${__git_status__} =~ \;.! ]] && __git_workt__+="!"
+
+    ## STAGE
+    [[ ${__git_status__} =~ \;M ]] && __git_stage__+="M"
+    [[ ${__git_status__} =~ \;A ]] && __git_stage__+="A"
+    [[ ${__git_status__} =~ \;D ]] && __git_stage__+="D"
+    [[ ${__git_status__} =~ \;R ]] && __git_stage__+="R"
+    [[ ${__git_status__} =~ \;C ]] && __git_stage__+="C"
+    [[ ${__git_status__} =~ \;U ]] && __git_stage__+="U"
+  fi
+
+  if [[ -n ${__git_branch__} ]]; then
+    int_result+=" ${crx_l_gray}${__git_branch__}"
+  fi
+  #git flags
+  if [[ -n ${__git_workt__}${__git_stage__} ]]; then
+    int_result+="("
+  fi
+  if [[ -n ${__git_stage__} ]]; then
+    int_result+="${crx_l_green}${__git_stage__}"
+  fi
+  if [[ -n ${__git_workt__} ]]; then
+    int_result+="${crx_l_red}${__git_workt__}"
+  fi
+  if [[ -n ${__git_workt__}${__git_stage__} ]]; then
+    int_result+="${crx_l_gray})"
+  fi
+
+  local ahead=$(git rev-list --count @{upstream}..HEAD 2>/dev/null)
+  local behind=$(git rev-list --count HEAD..@{upstream} 2>/dev/null)
+  if [[ ${?} == 0 && -n ${ahead} ]]; then
+    if [[ ${ahead} != 0 ]]; then
+      int_result+="${crx_green}+${ahead}"
+    fi
+    if [[ ${behind} != 0 ]]; then
+      int_result+="${crx_red}-${behind}"
+    fi
+  fi
+
+  echo "${int_result}"
+}
+
+###############################################################################
+### processes section
+function parse_ecode { #1: "ecode pipestatus[@]"
+  local int_result=""
+  local pstat=( $1 )
+  if (( ${pstat[@]:0:1} != ${pstat[@]:(-1)} )); then
+    pstat=( ${pstat[@]:0:1} )
+  else
+    pstat=( ${pstat[@]:1} )
+  fi
+  for xcode in ${pstat[@]}; do
+    if [[ $xcode == 0 ]]; then
+      int_result+="${crx_l_green}"
+    else
+      int_result+="${crx_l_red}"
+    fi
+    int_result+="${xcode}${crx_none},"
+  done
+  int_result=${int_result%%,}
+  if (( ${#pstat[@]} > 1 )); then
+    int_result="[${int_result}]"
+  fi
+  echo "${int_result}"
+}
+
+timer_start () {
+  timer=${timer:-$SECONDS}
+}
+
+timer_stop () {
+  timer=${timer:-$SECONDS}
+  timer_show=$(($SECONDS - $timer))
+  unset timer
+}
+
+function get_timer {
+    local timer
+    if (( timer_show > PS_TIMER_TRESHOLD)); then
+        if ((timer_show < PS_TIMER_SEC_TRESHOLD)); then
+            timer_crx="${cr_gray}"
+            timer_pattern='+%ss'
+        elif ((timer_show < PS_TIMER_MIN_TRESHOLD)); then
+            timer_crx="${cr_yellow}"
+            timer_pattern='+%M:%S'
+        else
+            timer_crx="${cr_red}"
+            timer_pattern='+%H:%M:%S'
+        fi
+        timer+=",${timer_crx}$(date "-d@${timer_show}" -u "${timer_pattern}")"
+    fi
+    echo "$timer"
+}
+
+trap 'timer_start' DEBUG
+
+###############################################################################
+### python section
+function get_python_venv {
+    local ps_python_virtualenv=""
+    if [[ -n $VIRTUAL_ENV ]]; then
+        ps_python_virtualenv="${crx_white}($(basename "$VIRTUAL_ENV"))${crx_none} "
+    fi
+    echo "${ps_python_virtualenv}"
+}
+
+###############################################################################
+### network section
+function strip_dhcp_hostname {
+  local tmp=$(hostname -s)
+  if [[ ${tmp} =~ dhcp- ]]; then
+    tmp="${tmp/dhcp-/}"
+    tmp="${tmp//-/.}"
+  fi
+
+  echo "${tmp}"
+}
+
+function get_default_ip {
+  tmp="$(ip r get 8.8.8.8 | sed -n -e '/8.8.8.8/s/^.*src \([0-9a-fA-F.:]\+\).*$/\1/p')"
+  echo ${tmp}
+}
+
+###############################################################################
+### machine section
+function get_machine {
+    local machine="${crx_none},${!PS_BASE_COLOR_NAME}"
+
+    if [[ -z ${PS_MACHINE_NAME} ]]; then
+        machine+="\h"
+    else
+        machine+="${PS_MACHINE_NAME}"
+    fi
+    if [[ ${PS_DEFAULT_IP} == true ]]; then
+        machine+="|$(get_default_ip)"
+    fi
+    if [[ ${PS_HOSTNAME} == true ]]; then
+        machine+="|\h"
+    fi
+    echo "${machine}"
+}
+
+###############################################################################
+### final section
+function generate_ps {
+  local pstat="$? ${PIPESTATUS[@]}"
+  local tmp
+  # init
+  tmp=""
+  # python venv
+  tmp+="$(get_python_venv)"
+  # ecode
+  tmp+="$(parse_ecode "${pstat}")"
+  # timers
+  tmp+="$(get_timer)"
+  #user@machine
+  tmp+="$(get_machine)"
+  #path
+  tmp+="${crx_l_blue} \w"
+  #git branch
+  tmp+="$(parse_git_state)"
+  #end
+  tmp+=" ${crx_l_blue}${PS_END_SYMBOL}${crx_none} "
+
+  PS1="${tmp}"
+}
+
+PROMPT_COMMAND=generate_ps
+

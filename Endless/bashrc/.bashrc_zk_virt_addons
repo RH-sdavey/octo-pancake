@@ -1,0 +1,11 @@
+# .bashrc
+
+
+: ${_MACHINE_NAME:?Please set the _MACHINE_NAME in ${BASH_SOURCE}}
+
+export EDITOR="/usr/bin/vim"
+export LOG_CONFIG="-Dlog4j.rootLogger=OFF"
+
+PS_BASE_COLOR_NAME="crx_l_yellow"
+PS_END_SYMBOL="#"
+source ~/.bashrc_zk_ps_addon

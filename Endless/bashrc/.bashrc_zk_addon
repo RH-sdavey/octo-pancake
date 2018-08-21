@@ -1,0 +1,13 @@
+# .bashrc base Add-On
+
+shopt -s compat31
+
+export EDITOR="/usr/bin/vim"
+
+if [ -n "${DISPLAY}" ]; then
+  xrdb ~/.Xresource
+fi
+
+
+export PATH+="~/bin:/usr/sbin:/sbin"
+

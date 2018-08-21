@@ -1,0 +1,5 @@
+---
+# tasks file for Endless_vaio
+- hosts: endless_vaio
+- import_playbook: install.yml
+- import_playbook: configure.yml
