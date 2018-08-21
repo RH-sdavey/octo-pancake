@@ -9,12 +9,6 @@ fi
 
 
 alias dc='cd'
-alias dtvenv='cd /home/sdavey/Projects/dtests/ ; source ./venv/bin/activate ; cd ./dtests'
-alias dtests='cd /home/sdavey/Projects/dtests/dtests/'
-alias dt='cd /home/sdavey/Projects/dtests/dtests/'
-alias doc='cd /home/sdavey/Projects/dtests-doc/'
-alias rd='cd /home/sdavey/Projects/dtests-rundefs/'
-alias idea='~/Downloads/Intellij/idea-IC-172.4574.11/bin/idea.sh &'
 
 PS_MACHINE_NAME="$CHANGEME"
 PS_DEFAULT_IP=true
