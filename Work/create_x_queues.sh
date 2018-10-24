@@ -74,7 +74,7 @@ do
 done
 
 ## Run the rest of servers which didn't fit into last whole BATCH
-[[ $COUNTER != 0 ]] && openshift $START (( COUNT - 1 )) &
+[[ $COUNTER != 0 ]] && openshift $START $(( COUNT - 1 )) &
 
 
 ## The waiting loop untill all processes in background finish (2 because grep will show also itself in ps)
