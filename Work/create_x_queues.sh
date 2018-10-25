@@ -13,11 +13,11 @@ for (( x=$1 ; x <= $2 ; x++ ));do
 apiVersion: enmasse.io/v1alpha1
 kind: Address
 metadata:
-name: seantest-addr.${STEM}.${x}
+    name: seantest-addr.${STEM}.${x}
 spec:
-address: ${STEM}.${x}
-type: queue
-plan: pooled-queue
+    address: ${STEM}.${x}
+    type: queue
+    plan: pooled-queue
 EOF
         
     fi
@@ -78,7 +78,7 @@ done
 
 
 ## The waiting loop untill all processes in background finish (2 because grep will show also itself in ps)
-Name=$(basename $0)
+NAME=$(basename $0)
 while [[ $(ps -e |grep -c -i $NAME) -gt 2 ]];do
        	sleep 1
 done
