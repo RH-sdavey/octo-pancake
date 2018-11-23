@@ -1,0 +1,227 @@
+<html>
+
+<head>
+    <title>MRG22 Terminal Browser</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css"/>
+    <link rel="stylesheet" type="text/css" href="css/component.css"/>
+    <script src="js/modernizr.custom.js"></script>
+    <style>
+        body {
+            background-image: url("images/abstract-art-artistic-1020315.jpg");
+        }
+
+        #dl-menu {
+            margin-left: -400px;
+        }
+
+    </style>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.dlmenu.js"></script>
+    <script> $(function () {
+        $('#dl-menu').dlmenu();
+    }); </script>
+
+    <script>
+        function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
+
+
+        function copyToClipboardFFConsoleTest(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val('make -e SYSTEMTESTS_PROFILE="systemtests" OPENSHIFT_REGISTER_API_SERVER=true STORE_SCREENSHOTS=true' +
+                ' SKIP_CLEANUP=false OPENSHIFT_PROJECT="myproject" SYSTEMTEST_ARGS="io.enmasse.systemtest.standard.web.' +
+                'FirefoxWebConsoleTest#test'.concat($(element).text()).concat('" systemtests')).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
+
+        function copyToClipboardAnsiblePB(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val('ansible-playbook systemtests/ansible/playbooks/'.concat($(element).text())).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
+
+        $(function openMenuOnPageLoad() {
+            document.getElementById("trigger").click();
+        })
+
+    </script>
+
+</head>
+
+
+<body>
+<h1 style="font-size:42px; color:red">terminal_browser</h1>
+
+<div class="main clearfix">
+    <div class="column">
+        <div id="dl-menu" class="dl-menuwrapper">
+            <button id='trigger' class="dl-trigger">Open Menu</button>
+            <ul class="dl-menu">
+                <li>
+                    <a href="#">AMQ Online tasks</a>
+                    <ul class="dl-submenu">
+                        <li><a onclick="copyToClipboard(this)" href="#">sean_deploy_masox true</a></li>
+                        <li>
+                            <a href="#">Ansible Roles+Playbooks</a>
+                            <ul class="dl-submenu">
+                                <li>
+                                    <a href="#">Roles</a>
+                                    <ul class="dl-submenu">
+                                        <li><a onclick="copyToClipboardAnsibleR(this)" href="#">roles</a></li>
+                                        <li><a onclick="copyToClipboardAnsibleR(this)" href="#">here</a></li>
+                                        <li><a onclick="copyToClipboardAnsibleR(this)" href="#">some</a></li>
+                                        <li><a onclick="copyToClipboardAnsibleR(this)" href="#">play</a></li>
+                                        <li><a onclick="copyToClipboardAnsibleR(this)" href="#">books</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Playbooks</a>
+                                    <ul class="dl-submenu">
+                                        <li><a onclick="copyToClipboardAnsiblePB(this)" href="#">environment.yml</a></li>
+                                        <li><a onclick="copyToClipboardAnsiblePB(this)" href="#">systemtests-dependencies.yml</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Admin Tasks</a>
+                    <ul class="dl-submenu">
+
+                        <li>
+                            <a href="#">Git Commands</a>
+                            <ul class="dl-submenu">
+                                <li><a onclick="copyToClipboard(this)" href="#">masox</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">git status</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">git pull --rebase</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">git log</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">git stash</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">git stash pop</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">OC Commands</a>
+                            <ul class="dl-submenu">
+                                <li><a onclick="copyToClipboard(this)" href="#">oc status</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">oc get pods</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">oc get node</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">oc get routes</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">oc cluster down</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">oc cluster up</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">System commands</a>
+                            <ul class="dl-submenu">
+                                <li><a onclick="copyToClipboard(this)" href="#">watch free -mh</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">htop</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">any others .......</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">System Tests</a>
+                    <ul class="dl-submenu">
+
+                        <li>
+                            <a href="#">Auth Tests</a>
+                            <ul class="dl-submenu">
+                                <li><a onclick="copyToClipboard(this)" href="#">Camera &amp; Photo</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">TV &amp; Home Cinema</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">Phones</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">PC &amp; Video Games</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#">Console Tests</a>
+                            <ul class="dl-submenu">
+                                <li>
+                                    <a href="#">Firefox Console</a>
+                                    <ul class="dl-submenu">
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">RegexAlertBehavesConsistently</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">CreateDeleteQueue</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">CreateDeleteTopic</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">FilterAddressesByType</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">FilterAddressesByName</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">DeleteFilteredAddress</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">FilterAddressWithRegexSymbols</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">RegexAlertBehavesConsistently</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">SortAddressesByName</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">SortAddressesByClients</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">SortConnectionsBySenders</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">SortConnectionsByReceivers</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">FilterConnectionsByEncrypted</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">FilterConnectionsByUser</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">FilterConnectionsByHostname</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">SortConnectionsByHostname</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">FilterConnectionsByContainerId</a></li>
+                                        <li><a onclick="copyToClipboardFFConsoleTest(this)" href="#">SortConnectionsByContainerId</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Chrome Tests</a>
+                                    <ul class="dl-submenu">
+                                        <li>
+                                            <a href="#">Beds</a>
+                                            <ul class="dl-submenu">
+                                                <li><a onclick="copyToClipboard(this)" href="#">Upholstered Beds</a></li>
+                                                <li><a onclick="copyToClipboard(this)" href="#">Divans</a></li>
+                                                <li><a onclick="copyToClipboard(this)" href="#">Metal Beds</a></li>
+                                                <li><a onclick="copyToClipboard(this)" href="#">Storage Beds</a></li>
+                                                <li><a onclick="copyToClipboard(this)" href="#">Wooden Beds</a></li>
+                                                <li><a onclick="copyToClipboard(this)" href="#">Children's Beds</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a onclick="copyToClipboard(this)" href="#">Bedroom Sets</a></li>
+                                        <li><a onclick="copyToClipboard(this)" href="#">Chests &amp; Dressers</a></li>
+                                    </ul>
+                                </li>
+                                <li><a onclick="copyToClipboard(this)" href="#">Home Office</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">Dining &amp; Bar</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">Patio</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Other tests</a>
+                    <ul class="dl-submenu">
+                        <li><a onclick="copyToClipboard(this)" href="#">Fine Jewelry</a></li>
+                        <li><a onclick="copyToClipboard(this)" href="#">Fashion Jewelry</a></li>
+                        <li><a onclick="copyToClipboard(this)" href="#">Watches</a></li>
+                        <li>
+                            <a href="#">Wedding Jewelry</a>
+                            <ul class="dl-submenu">
+                                <li><a onclick="copyToClipboard(this)" href="#">Engagement Rings</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">Bridal Sets</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">Women's Wedding Bands</a></li>
+                                <li><a onclick="copyToClipboard(this)" href="#">Men's Wedding Bands</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /dl-menuwrapper -->
+        <iframe id="iframe" width="1400px" height="800px" align="left"
+                src="https://10.37.144.46:9090/cockpit/@localhost/system/terminal.html"></iframe>
+    </div>
+</div>
+</div><!-- /container -->
+
+
+</body>
+</html>
